@@ -114,7 +114,7 @@
     <!-- HEADER -->
       <mj-section css-class="HEADER" padding-top="15px" padding-bottom="38px">
         <mj-column>
-          <mj-image css-class="LOGO" padding="0px" width="175px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/F192417F-4C9B-4067-9F82-60A1B0093F9F.svg" href="#" alt="logo.svg" target="_blank" />
+          <mj-image css-class="LOGO" padding="0px" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" href="#" alt="logo.svg" target="_blank" />
         </mj-column>
       </mj-section>
 
@@ -124,7 +124,7 @@
         <!-- WINDOW -->
         <mj-section css-class="WINDOW" padding="0px">
           <mj-column padding-top="42px" background-color="#ffffff" border-radius="10px">
-            <mj-image padding="0px" width="82px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/17CECD37-9A64-4EE4-96A6-98569E170276.svg" alt="picture.svg" />
+            <mj-image padding="0px" width="82px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
 
               <!-- TITLE -->
               <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="38px" font-weight="bold" letter-spacing="-0.6px">Verify yourself with one&nbsp;click</mj-text>
@@ -187,10 +187,10 @@
           <!-- SOCIAL -->
           <mj-column width="50%">
             <mj-social align="right" padding="0px" icon-size="30px">
-              <mj-social-element src="./img/facebook.svg" href="#" target="_blank" alt="facebook"  />
-              <mj-social-element src="./img/twitter.svg"  href="#" target="_blank" alt="twitter" padding="0px 0px 0px 10px" />
-              <mj-social-element src="./img/linkedin.svg"  href="#" target="_blank" alt="linkedin" padding="0px 0px 0px 10px" />
-              <mj-social-element src="./img/angellist.svg" href="#" target="_blank" alt="angellist" padding="0px 0px 0px 10px" />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png" href="#" target="_blank" alt="facebook"  />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/twitter%403x.png"  href="#" target="_blank" alt="twitter" padding="0px 0px 0px 10px" />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/linkedin%403x.png"  href="#" target="_blank" alt="linkedin" padding="0px 0px 0px 10px" />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/angellist%403x.png" href="#" target="_blank" alt="angellist" padding="0px 0px 0px 10px" />
             </mj-social>
           </mj-column>
         </mj-section>
