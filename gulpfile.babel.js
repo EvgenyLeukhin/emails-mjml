@@ -1,12 +1,12 @@
 'use strict';
 
-import gulp         from 'gulp';
-import babel        from 'gulp-babel';
-import imagemin     from 'gulp-imagemin';
-import mjml         from 'gulp-mjml';
-import newer        from 'gulp-newer';
-import browserSync  from 'browser-sync';
-import del          from 'del';
+import gulp from 'gulp';
+import babel from 'gulp-babel';
+import imagemin from 'gulp-imagemin';
+import mjml from 'gulp-mjml';
+import newer from 'gulp-newer';
+import browserSync from 'browser-sync';
+import del from 'del';
 
 
 // Simple config: just set up paths for everything
@@ -35,8 +35,8 @@ export const generateHtml = (done) => {
   gulp.src(paths.html.src)
     .pipe(mjml())
     .pipe(gulp.dest(basePaths.dist));
-    browserSync.reload();
-    done();
+  browserSync.reload();
+  done();
 };
 
 
@@ -53,7 +53,7 @@ export const images = (done) => {
     }))
     .pipe(gulp.dest(paths.images.dist))
     .pipe(browserSync.stream())
-    done();
+  done();
 }
 
 
@@ -63,7 +63,9 @@ export const images = (done) => {
 // to the changes on html & images generated
 //
 export const watch = () => {
-  browserSync.init({ server: basePaths.dist })
+  browserSync.init({
+    server: basePaths.dist
+  })
   gulp.watch(paths.html.src, generateHtml);
   gulp.watch(paths.images.src, images);
 };
@@ -71,7 +73,7 @@ export const watch = () => {
 
 // Simple clean task, deleting the `dist` folder
 gulp.task('clean', () =>
-  del([ basePaths.dist ])
+  del([basePaths.dist])
 );
 
 

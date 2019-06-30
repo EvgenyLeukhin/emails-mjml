@@ -1,15 +1,16 @@
 {
-  "name": "mjml-gulp-starter",
+  "name": "emails-mjml",
   "version": "1.0.0",
-  "description": "A Gulp starter for MJML 4 with live preview & assets compression",
+  "description": "A Gulp starter for MJML 4 with live preview & assets compression for my project work",
   "main": "gulpfile.babel.js",
   "scripts": {
-    "start": "gulp watch",
-    "build": "gulp"
+    "start": "gulp && gulp watch",
+    "build": "gulp",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heyflo/mjml-gulp-starter.git"
+    "url": "git+github.com/EvgenyLeukhin/emails-mjml.git"
   },
   "keywords": [
     "mjml",
@@ -17,9 +18,11 @@
     "imagemin",
     "browsersync"
   ],
-  "author": "Florent CLANET (florent@choosit.com)",
+  "author": "Evgeny Leukhin",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
