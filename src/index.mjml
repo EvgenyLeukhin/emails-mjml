@@ -7,18 +7,112 @@
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
           font-family: Helvetica;
         }
+        @media (max-width: 650px) {
+          .WRAPPER {
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          .BODY {
+            border-top: 3px solid #00cb83 !important;
+          }
+          .HEADER td {
+            padding-top: 0 !important;
+            padding-bottom: 5px !important;
+          }
+          .LOGO img {
+            width: 134px !important;
+            margin: auto;
+          }
+          .WINDOW img {
+            width: 66px !important;
+            margin: auto;
+          }
+          .WINDOW .mj-column-per-100 > table > tbody > tr > td {
+            padding-top: 30px !important;
+          }
+          .TITLE {
+            padding-top: 14px !important;
+          }
+          .TITLE > div {
+            font-size: 22px !important;
+            line-height: 28px !important;
+          }
+          .SUB-TITLE {
+            padding: 2px 18px !important;
+          }
+          .SUB-TITLE > div {
+            font-size: 15px !important;
+            line-height: 22px !important;
+          }
+          .FEEDBACK {
+            padding: 0px 10px !important;
+          }
+          .FEEDBACK > div {
+            font-size: 13px !important;
+            line-height: 18px !important;
+          }
+          .FEEDBACK-WRAPPER > table > tbody > tr > td {
+            padding-top: 20px !important;
+            padding-bottom: 5px !important;
+          }
+          .BUTTON {
+            padding-top: 20px !important;
+            padding-bottom: 30px !important;
+          }
+          .BUTTON td {
+            width: 200px !important;
+            height: 46px !important;
+          }
+          .BUTTON a {
+            line-height: 1.2 !important;
+            letter-spacing: -0.26px !important;
+            font-size: 15px !important;
+          }
+          .DIVIDER {
+            margin-top: -10px !important;
+          }
+          .DIVIDER td {
+            padding-bottom: 10px !important;
+          }
+          .FOOTER .mj-column-per-50 {
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          .FOOTER .mj-column-per-50 td[align="left"] > div {
+            text-align: center !important;
+          }
+          .FOOTER .mj-column-per-50 td[align="right"] {
+            display: flex !important;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 15px;
+          }
+
+          .FOOTER .mj-column-per-50 td[align="right"] > table {
+            margin-left: 15px;
+          }
+
+          .FOOTER .mj-column-per-50 td[align="right"] > table td {
+            padding: 0px !important;
+          }
+
+        }
       </mj-style>
 
       <!-- css-class="Some-class" -->
-      <mj-style inline="inline"></mj-style>
+      <mj-style inline="inline">
+        .BODY {
+          border-top: 5px solid #00cb83;
+        }
+      </mj-style>
   </mj-head>
 
   <!-- WRAPPER 900px -->
-  <mj-body css-class="WRAPPER" width="900px">
-   <mj-wrapper border-top="5px solid #00cb83" background-color="#f4f5f8">
+  <mj-body css-class="BODY" width="900px">
+   <mj-wrapper css-class="WRAPPER" background-color="#f4f5f8">
 
     <!-- HEADER -->
-      <mj-section padding-top="15px" padding-bottom="38px">
+      <mj-section css-class="HEADER" padding-top="15px" padding-bottom="38px">
         <mj-column>
           <mj-image css-class="LOGO" padding="0px" width="175px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/F192417F-4C9B-4067-9F82-60A1B0093F9F.svg" href="#" alt="logo.svg" target="_blank" />
         </mj-column>
@@ -28,33 +122,33 @@
       <mj-body css-class="INNER" width="600px">
 
         <!-- WINDOW -->
-        <mj-section padding="0px">
+        <mj-section css-class="WINDOW" padding="0px">
           <mj-column padding-top="42px" background-color="#ffffff" border-radius="10px">
             <mj-image padding="0px" width="82px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/17CECD37-9A64-4EE4-96A6-98569E170276.svg" alt="picture.svg" />
 
               <!-- TITLE -->
-              <mj-text font-size="30px" align="center" color="#1f1f1f" padding-top="38px" font-weight="bold" letter-spacing="-0.6px">Verify yourself with one click</mj-text>
+              <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="38px" font-weight="bold" letter-spacing="-0.6px">Verify yourself with one&nbsp;click</mj-text>
 
               <!-- SUB-TITLE -->
-              <mj-text line-height="25px" font-size="17px" align="center" color="#1f1f1f" padding-top="2px">Simply hit the button to verify your email and get back to your job search in seconds</mj-text>
+              <mj-text css-class="SUB-TITLE" line-height="25px" font-size="17px" align="center" color="#1f1f1f" padding-top="2px">Simply hit the button to verify your email and get back to your job search in seconds</mj-text>
 
               <!-- BUTTON -->
-              <mj-button href="#" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="22px" padding-bottom="42px">
+              <mj-button css-class="BUTTON" href="#" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="22px" padding-bottom="42px">
               Verify my e-mail
             </mj-button>
           </mj-column>
         </mj-section>
 
         <!-- FEEDBACK -->
-        <mj-section padding-bottom="13px">
+        <mj-section css-class="FEEDBACK-WRAPPER" padding-bottom="13px">
           <mj-column>
-            <mj-text line-height="22px" font-size="15px" align="center" color="#818181" padding-top="17px">Send us an email at <a href="#" style="color: #007cff; text-decoration: none;">feedback@producthired.com</a> to let us know what you think about this new email. Please note that you will not receive a response back.</mj-text>
+            <mj-text css-class="FEEDBACK" line-height="22px" font-size="15px" align="center" color="#818181" padding-top="17px">Send us an email at <a href="#" style="color: #007cff; text-decoration: none;">feedback@producthired.com</a> to let us know what you think about this new email. Please note that you will not receive a response back.</mj-text>
           </mj-column>
         </mj-section>
 
         <!-- UNSUBSCRIBE -->
         <mj-section padding-top="0" padding-bottom="0px">
-          <mj-column padding-top="5px" padding-bottom="5px">
+          <mj-column css-class="UNSUBSCRIBE" padding-top="5px" padding-bottom="5px">
             <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="0px" text-decoration="underline" href="#">
               Unsubscribe
             </mj-button>
@@ -63,7 +157,7 @@
 
         <!-- HELP -->
         <mj-section padding-top="0" padding-bottom="28px">
-          <mj-column padding-top="5px" padding-bottom="5px">
+          <mj-column css-class="HELP" padding-top="5px" padding-bottom="5px">
             <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="0px" text-decoration="underline" href="#">
               Help
             </mj-button>
@@ -71,17 +165,17 @@
         </mj-section>
 
         <!-- DIVIDER -->
-        <mj-section padding-top="0" padding-bottom="28px">
-          <mj-column>
+        <mj-section css-class="DIVIDER" padding-top="0" padding-bottom="28px">
+          <mj-column >
             <mj-divider border-width="1px" border-style="solid" border-color="#cccccc" padding="0"/>
           </mj-column>
         </mj-section>
 
         <!-- FOOTER -->
-        <mj-section padding-top="0" padding-bottom="28px">
+        <mj-section css-class="FOOTER" padding-top="0" padding-bottom="28px">
 
           <!-- COPYRIGHT -->
-          <mj-column>
+          <mj-column width="50%">
             <mj-text font-size="13px" color="#9a9a9a" padding="5px 0px 12px">
               Made by ProductHired LLC
             </mj-text>
@@ -91,7 +185,7 @@
           </mj-column>
 
           <!-- SOCIAL -->
-          <mj-column>
+          <mj-column width="50%">
             <mj-social align="right" padding="0px" icon-size="30px">
               <mj-social-element src="./img/facebook.svg" href="#" target="_blank" alt="facebook"  />
               <mj-social-element src="./img/twitter.svg"  href="#" target="_blank" alt="twitter" padding="0px 0px 0px 10px" />
