@@ -4,7 +4,8 @@
   "description": "A Gulp starter for MJML 4 with live preview & assets compression",
   "main": "gulpfile.babel.js",
   "scripts": {
-    "start": "gulp watch"
+    "start": "gulp watch",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
