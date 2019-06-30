@@ -1,41 +1,108 @@
-<mjml>
-  <mj-head>
-    <mj-title></mj-title>
-    <mj-attributes>
-      <mj-class name="blue" color="blue" />
-      <mj-class name="big" font-size="20px" />
-      <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
-      <mj-all font-family="Raleway, Arial" />
-    </mj-attributes>
+ <mjml>
+  
+   <mj-head>
+    <mj-style>
+        body {
+          font-family: -apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+          font-family: Helvetica;
+        }
+      </mj-style>
+
+      <!-- css-class="Some-class" -->
+      <mj-style inline="inline"></mj-style>
   </mj-head>
-  <mj-body>
-    <mj-section>
-        <mj-text font-size="20px" align="center">
-          A MJML starter kit with Gulp, BrowserSync & Imagemin
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-button href="https://www.choosit.com" font-family="Helvetica" background-color="#009ee0" color="white">
-          Don't click me yo!
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="600px" src="http://www.online-image-editor.com//styles/2014/images/example_image.png" />
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="300px" src="http://placehold.it/300x300" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="300px" src="http://placehold.it/300x300" />
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="600px" src="img/test.png" />
-      </mj-column>
-    </mj-section>
+
+  <!-- WRAPPER 900px -->
+  <mj-body css-class="WRAPPER" width="900px">
+   <mj-wrapper border-top="5px solid #00cb83" background-color="#f4f5f8">
+
+    <!-- HEADER -->
+      <mj-section padding-top="15px" padding-bottom="38px">
+        <mj-column>
+          <mj-image css-class="LOGO" padding="0px" width="175px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/F192417F-4C9B-4067-9F82-60A1B0093F9F.svg" href="#" alt="logo.svg" target="_blank" />
+        </mj-column>
+      </mj-section>
+
+      <!-- INNER 600px -->
+      <mj-body css-class="INNER" width="600px">
+
+        <!-- WINDOW -->
+        <mj-section padding="0px">
+          <mj-column padding-top="42px" background-color="#ffffff" border-radius="10px">
+            <mj-image padding="0px" width="82px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/17CECD37-9A64-4EE4-96A6-98569E170276.svg" alt="picture.svg" />
+
+              <!-- TITLE -->
+              <mj-text font-size="30px" align="center" color="#1f1f1f" padding-top="38px" font-weight="bold" letter-spacing="-0.6px">Verify yourself with one click</mj-text>
+
+              <!-- SUB-TITLE -->
+              <mj-text line-height="25px" font-size="17px" align="center" color="#1f1f1f" padding-top="2px">Simply hit the button to verify your email and get back to your job search in seconds</mj-text>
+
+              <!-- BUTTON -->
+              <mj-button href="#" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="22px" padding-bottom="42px">
+              Verify my e-mail
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <!-- FEEDBACK -->
+        <mj-section padding-bottom="13px">
+          <mj-column>
+            <mj-text line-height="22px" font-size="15px" align="center" color="#818181" padding-top="17px">Send us an email at <a href="#" style="color: #007cff; text-decoration: none;">feedback@producthired.com</a> to let us know what you think about this new email. Please note that you will not receive a response back.</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!-- UNSUBSCRIBE -->
+        <mj-section padding-top="0" padding-bottom="0px">
+          <mj-column padding-top="5px" padding-bottom="5px">
+            <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="0px" text-decoration="underline" href="#">
+              Unsubscribe
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <!-- HELP -->
+        <mj-section padding-top="0" padding-bottom="28px">
+          <mj-column padding-top="5px" padding-bottom="5px">
+            <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="0px" text-decoration="underline" href="#">
+              Help
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <!-- DIVIDER -->
+        <mj-section padding-top="0" padding-bottom="28px">
+          <mj-column>
+            <mj-divider border-width="1px" border-style="solid" border-color="#cccccc" padding="0"/>
+          </mj-column>
+        </mj-section>
+
+        <!-- FOOTER -->
+        <mj-section padding-top="0" padding-bottom="28px">
+
+          <!-- COPYRIGHT -->
+          <mj-column>
+            <mj-text font-size="13px" color="#9a9a9a" padding="5px 0px 12px">
+              Made by ProductHired LLC
+            </mj-text>
+            <mj-text font-size="13px" color="#9a9a9a" padding="0px">
+              513 Chalk Ln. Austin,TX - 92345
+            </mj-text>
+          </mj-column>
+
+          <!-- SOCIAL -->
+          <mj-column>
+            <mj-social align="right" padding="0px" icon-size="30px">
+              <mj-social-element src="./img/facebook.svg" href="#" target="_blank" alt="facebook"  />
+              <mj-social-element src="./img/twitter.svg"  href="#" target="_blank" alt="twitter" padding="0px 0px 0px 10px" />
+              <mj-social-element src="./img/linkedin.svg"  href="#" target="_blank" alt="linkedin" padding="0px 0px 0px 10px" />
+              <mj-social-element src="./img/angellist.svg" href="#" target="_blank" alt="angellist" padding="0px 0px 0px 10px" />
+            </mj-social>
+          </mj-column>
+        </mj-section>
+      </mj-body>
+
+    </mj-wrapper>
   </mj-body>
+
 </mjml>

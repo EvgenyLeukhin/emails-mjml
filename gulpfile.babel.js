@@ -63,9 +63,7 @@ export const images = (done) => {
 // to the changes on html & images generated
 //
 export const watch = () => {
-  browserSync.init({
-    server: basePaths.dist
-  })
+  browserSync.init({ server: basePaths.dist })
   gulp.watch(paths.html.src, generateHtml);
   gulp.watch(paths.images.src, images);
 };
