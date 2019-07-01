@@ -7,5 +7,7 @@ Created by:
 
 # Commands
 ``` npm install ``` - Install packages
+
 ``` npm start ``` - Start development
+
 ``` npm run deploy ``` - Deploy to gh-pages
