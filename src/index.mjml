@@ -1,6 +1,10 @@
 <mjml>
   <mj-head>
     <mj-style>
+      body {
+          font-family: -apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+          font-family: Helvetica;
+      }
       .HEADER-MOBILE,  
       .WINDOW-MOBILE,
       .FEEDBACK-MOBILE,
