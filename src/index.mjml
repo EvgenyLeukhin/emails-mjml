@@ -34,7 +34,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body css-class="BODY" width="900px" padding="0px">
+  <mj-body width="900px" padding="0px">
     <mj-wrapper css-class="WRAPPER" padding="0px" background-color="#f4f5f8" border-top="5px solid #00cb83">
 
       <!-- HEADER DESKTOP-->
