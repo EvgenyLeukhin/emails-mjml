@@ -77,7 +77,7 @@
         <mj-section css-class="WINDOW" background-color="#ffffff" border-radius="10px" padding="0px">
           <mj-column>
             <!-- IMAGE -->
-            <mj-image css-class="IMAGE" padding-top="42px" width="82px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
+            <mj-image css-class="IMAGE" padding-top="42px" width="82px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" alt="image.png" />
 
             <!-- TITLE -->
             <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="26px" font-weight="bold" letter-spacing="-0.6px">Verify yourself with one&nbsp;click</mj-text>
