@@ -76,9 +76,8 @@
       <mj-body css-class="INNER" width="600px">
 
         <!-- WINDOW -->
-        <mj-section css-class="WINDOW" padding="0px">
-          <mj-column background-color="#ffffff" border-radius="10px">
-
+        <mj-section background-color="#ffffff" border-radius="10px" css-class="WINDOW" padding="0px">
+          <mj-column>
             <!-- IMAGE -->
             <mj-image css-class="IMAGE" padding-top="42px" width="82px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
 
