@@ -4,8 +4,6 @@
       body {
           font-family: -apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
           font-family: Helvetica;
-          border-top: 5px solid #00cb83;
-          background-color: #f4f5f8;
       }
       @media (max-width: 650px) {
         .WRAPPER { 
@@ -63,7 +61,7 @@
   </mj-head>
 
   <mj-body width="900px" padding="0px">
-    <mj-wrapper css-class="WRAPPER" padding="0px">
+    <mj-wrapper css-class="WRAPPER" padding="0px" background-color="#f4f5f8" border-top="5px solid #00cb83">
 
       <!-- HEADER -->
       <mj-section css-class="HEADER" padding="0px">
@@ -73,10 +71,10 @@
       </mj-section>
 
       <!-- INNER 600px -->
-      <mj-body css-class="INNER" width="600px">
+      <mj-body width="600px">
 
         <!-- WINDOW -->
-        <mj-section background-color="#ffffff" border-radius="10px" css-class="WINDOW" padding="0px">
+        <mj-section css-class="WINDOW" background-color="#ffffff" border-radius="10px" padding="0px">
           <mj-column>
             <!-- IMAGE -->
             <mj-image css-class="IMAGE" padding-top="42px" width="82px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
