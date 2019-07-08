@@ -11,8 +11,6 @@
           max-width: 500px !important;
         }
 
-        .ITEM-WRAPPER { padding: 0 10px !important; }
-
         .LOGO    { padding: 18px 0 18px 0 !important; }
         .LOGO td { width: 129px !important; }
 

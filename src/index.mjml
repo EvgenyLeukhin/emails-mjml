@@ -17,34 +17,14 @@
         .LOGO    { padding: 18px 0 18px 0 !important; }
         .LOGO td { width: 129px !important; }
 
-        .IMAGE    { padding: 25px 0 12px 0 !important; }
-        .IMAGE td { width: 66px !important; }
-
-        .TITLE { padding: 5px 10px 7px 10px !important; }
-        .TITLE div {
-          font-size: 22px !important;
-          letter-spacing: normal !important;
-          line-height: 28px !important;
-        }
-
-        .SUB-TITLE { padding: 5px 10px 6px 10px !important; }
-        .SUB-TITLE div {
-          font-size: 15px !important;
-          line-height: 22px !important;
-        }
-
         .BUTTON { 
           width: 200px !important;
           height: 46px !important;
-          padding: 15px 0 30px 0 !important;
         }
         .BUTTON td { height: 46px !important; }
         .BUTTON a {
            font-size: 15px !important;
            line-height: 18px !important;
-        }
-        .BUTTON a:hover {
-          text-decoration: underline !important;
         }
 
         .FEEDBACK div {
