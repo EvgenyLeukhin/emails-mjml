@@ -5,7 +5,6 @@
           font-family: -apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
           font-family: Helvetica;
       }
-
       @media (max-width: 650px) {
         .WRAPPER { 
           padding: 0 20px 0 20px !important; 
@@ -41,9 +40,6 @@
            font-size: 15px !important;
            line-height: 18px !important;
         }
-        .BUTTON a:hover {
-          text-decoration: underline !important;
-        }
 
         .FEEDBACK div {
           font-size: 13px !important;
@@ -59,6 +55,7 @@
             text-align: center !important;
           }
         }
+
       }
     </mj-style>
   </mj-head>
@@ -77,84 +74,23 @@
       <mj-body width="600px">
 
         <!-- WINDOW -->
-        <mj-section css-class="WINDOW" background-color="#ffffff" padding-top="0px" padding-bottom="16px" border-radius="10px 10px 0 0">
+        <mj-section css-class="WINDOW" background-color="#ffffff" border-radius="10px" padding="0px">
           <mj-column>
+            <!-- IMAGE -->
+            <mj-image css-class="IMAGE" padding-top="42px" width="82px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" alt="image.png" />
+
             <!-- TITLE -->
-            <mj-text css-class="TITLE-TWO-COLS" font-size="20px" align="center" color="#1f1f1f" padding-top="33px" padding-bottom="0px">Jobs related to</mj-text>
+            <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="26px" font-weight="bold" letter-spacing="-0.6px">Verify yourself with one&nbsp;click</mj-text>
 
             <!-- SUB-TITLE -->
-            <mj-text css-class="SUB-TITLE-TWO-COLS" font-size="20px" align="center" font-weight="bold" color="#1f1f1f" padding-top="7px">Senior Product Manager</mj-text>
+            <mj-text css-class="SUB-TITLE" line-height="25px" font-size="17px" align="center" color="#1f1f1f" padding-top="2px">Simply hit the button to verify your email and get back to your job search in seconds</mj-text>
+
+            <!-- BUTTON -->
+            <mj-button css-class="BUTTON" href="#" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="24px" padding-bottom="42px">
+            Verify my e-mail
+            </mj-button>
           </mj-column>
         </mj-section>
-
-
-        <!-- ITEM-WRAPPER 600px -->
-        <mj-wrapper background-color="#ffffff" padding-top="0px" padding-bottom="10px">
-          <mj-body width="400px">
-            <mj-section css-class="LIST-ITEM" background-color="#fdfdfd" border="1px solid #ededed" border-radius="4px" padding="0px">
-
-              <!-- LEFT-COL -->
-              <mj-column width="80%">
-                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px">
-                  <a style="color: #28292c; text-decoration: none;" href="#">Sr. Product Manager</a>
-                </mj-text>
-
-                <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">NETFLIX</mj-text>
-                <mj-text font-size="13px" color="#28292c" padding="10px 0 0 15px">New York, New Jersey</mj-text>
-                <mj-text font-size="13px" color="#ff8b7a" font-weight="bold" padding="12px 0 18px 15px">Today</mj-text>
-              </mj-column>
-
-              <!-- RIGHT-COL -->
-              <mj-column width="20%">
-                <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://fybstoreid.com/wp-content/uploads/2019/06/8c740bc13bd5a0a19c24d28dff98cbdd-2.png" href="#" />
-              </mj-column>
-            </mj-section>
-          </mj-body>
-        </mj-wrapper>
-
-
-
-        <!-- ITEM-WRAPPER 600px -->
-        <mj-wrapper background-color="#ffffff" padding="0px" padding-bottom="10px">
-          <mj-body width="400px">
-            <mj-section css-class="LIST-ITEM" background-color="#fdfdfd" border="1px solid #ededed" border-radius="4px" padding="0px">
-
-              <!-- LEFT-COL -->
-              <mj-column width="80%">
-                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px">
-                  <a style="color: #28292c; text-decoration: none;" href="#">Lead Product Manager</a>
-                </mj-text>
-
-                <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">APPLE</mj-text>
-                <mj-text font-size="13px" color="#28292c" padding="10px 0 0 15px">Los Angeles, San Diego</mj-text>
-                <mj-text font-size="13px" color="#757d93" font-weight="bold" padding="12px 0 18px 15px">Yesteday</mj-text>
-              </mj-column>
-
-              <!-- RIGHT-COL -->
-              <mj-column width="20%">
-                <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://cdn2.iconfinder.com/data/icons/apple-tv-1/512/apple_logo-512.png" href="#" />
-              </mj-column>
-            </mj-section>
-          </mj-body>
-        </mj-wrapper>
-
-
-
-        <!-- BUTTON -->
-        <mj-wrapper background-color="#ffffff" padding-top="0px" padding-bottom="22px" border-radius="10px">
-          <mj-body width="400px">
-            <mj-section>
-              <mj-column>
-                <!-- BUTTON -->
-                <mj-button css-class="BUTTON" href="#" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="0px" padding-bottom="0px">
-                See All Jobs
-                </mj-button>
-              </mj-column>
-            </mj-section>
-          </mj-body>
-        </mj-wrapper>
-
-
 
         <!-- FEEDBACK -->
         <mj-section css-class="FEEDBACK" padding-bottom="13px">
