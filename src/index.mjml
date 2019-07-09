@@ -40,6 +40,8 @@
           .FOOTER div,
           .FOOTER td {
             text-align: center !important;
+            width: 100% !important;
+            max-width: 100% !important;
           }
         }
       }
