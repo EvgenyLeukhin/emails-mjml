@@ -208,7 +208,7 @@
           <!-- SOCIAL -->
           <mj-column width="50%" padding-top="0px">
             <mj-social align="right" icon-size="30px">
-              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png" href="#" target="_blank" alt="facebook"  />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png" href="#" target="_blank" alt="facebook" padding="0px 0px 0px 10px" />
               <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/twitter%403x.png"  href="#" target="_blank" alt="twitter" padding="0px 0px 0px 10px" />
               <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/linkedin%403x.png"  href="#" target="_blank" alt="linkedin" padding="0px 0px 0px 10px" />
               <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/angellist%403x.png" href="#" target="_blank" alt="angellist" padding="0px 0px 0px 10px" />
