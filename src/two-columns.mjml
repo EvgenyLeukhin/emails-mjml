@@ -62,13 +62,13 @@
       <mj-body width="600px">
 
         <!-- WINDOW -->
-        <mj-section css-class="WINDOW" background-color="#ffffff" padding-top="0px" padding-bottom="16px" border-radius="10px 10px 0 0">
+        <mj-section css-class="WINDOW" background-color="#ffffff" padding-top="0px" padding-bottom="10px" border-radius="10px 10px 0 0">
           <mj-column>
             <!-- TITLE -->
             <mj-text css-class="TITLE-TWO-COLS" font-size="20px" align="center" color="#1f1f1f" padding-top="33px" padding-bottom="0px">Jobs related to</mj-text>
 
             <!-- SUB-TITLE -->
-            <mj-text css-class="SUB-TITLE-TWO-COLS" font-size="20px" align="center" font-weight="bold" color="#1f1f1f" padding-top="7px">Senior Product Manager</mj-text>
+            <mj-text css-class="SUB-TITLE-TWO-COLS" font-size="20px" line-height="26px" align="center" font-weight="bold" color="#1f1f1f" padding-top="7px">Technical Product Manager – Central Systems, Data & Tools</mj-text>
           </mj-column>
         </mj-section>
 
@@ -80,8 +80,8 @@
 
               <!-- LEFT-COL -->
               <mj-column width="80%">
-                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px">
-                  <a style="color: #28292c; text-decoration: none;" href="#">Sr. Product Manager</a>
+                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px" line-height="18px">
+                  <a style="color: #28292c; text-decoration: none;" href="#">Technical Product Manager – Central Systems, Data & Tools</a>
                 </mj-text>
 
                 <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">
@@ -90,7 +90,7 @@
 
                 <mj-text font-size="13px" color="#28292c" padding="10px 0 0 15px">
                   <img width="13" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/location.png" alt="location.png" valign="top" />&nbsp;
-                  New York, New Jersey
+                  Petropavlovsk-Kamchatsky
                 </mj-text>
 
                 <mj-text font-size="13px" color="#ff8b7a" font-weight="bold" padding="12px 0 18px 15px">
@@ -117,8 +117,8 @@
               <!-- LEFT-COL -->
               <mj-column width="80%">
               
-                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px">
-                  <a style="color: #28292c; text-decoration: none;" href="#">Lead Product Manager</a>
+                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px" line-height="18px">
+                  <a style="color: #28292c; text-decoration: none;" href="#">Product Manager, Mobile Computing Solutions</a>
                 </mj-text>
 
                 <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">APPLE</mj-text>
