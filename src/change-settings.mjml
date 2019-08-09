@@ -78,7 +78,7 @@
         <mj-section css-class="WINDOW" background-color="#ffffff" border-radius="10px" padding="0px">
           <mj-column>
             <!-- IMAGE -->
-            <mj-image css-class="IMAGE" padding-top="42px" width="120px" src="img/settings-1@3x.png" alt="image.png" />
+            <mj-image css-class="IMAGE" padding-top="42px" width="120px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/settings-1%403x.png" alt="image.png" />
 
             <!-- TITLE -->
             <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="26px" font-weight="bold" letter-spacing="-0.6px">Account Settings have been modified</mj-text>
