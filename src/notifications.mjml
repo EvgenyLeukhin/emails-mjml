@@ -15,7 +15,7 @@
         .LOGO td { width: 129px !important; }
 
         .IMAGE    { padding: 25px 0 12px 0 !important; }
-        .IMAGE td { width: 86px !important; }
+        .IMAGE td { width: 74px !important; }
 
         .TITLE { padding: 5px 10px 7px 10px !important; }
         .TITLE div {
@@ -78,18 +78,17 @@
         <mj-section css-class="WINDOW" background-color="#ffffff" border-radius="10px" padding="0px">
           <mj-column>
             <!-- IMAGE -->
-            <mj-image css-class="IMAGE" padding-top="42px" width="120px" src="img/settings-1@3x.png" alt="image.png" />
+            <mj-image css-class="IMAGE" padding-top="42px" width="92px" src="img/bell-1@3x.png" alt="image.png" />
 
             <!-- TITLE -->
-            <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="26px" font-weight="bold" letter-spacing="-0.6px">Account Settings have been modified</mj-text>
+            <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="26px" font-weight="bold" letter-spacing="-0.6px">You have a notification wating for you</mj-text>
 
             <!-- SUB-TITLE -->
-            <mj-text css-class="SUB-TITLE" line-height="25px" font-size="17px" align="center" color="#1f1f1f" padding-top="2px">You have just modified your account settings. <br />
-            If you are unaware of this action, please contact us.</mj-text>
+            <mj-text css-class="SUB-TITLE" line-height="25px" font-size="17px" align="center" color="#1f1f1f" padding-top="2px">You have an unread notification on ProductHired. <br />Please visit the site to check</mj-text>
 
             <!-- BUTTON -->
-            <mj-button css-class="BUTTON" href="#" background-color="#ffffff" color="#007cff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="24px" padding-bottom="42px">
-              Contact ProductHired
+            <mj-button css-class="BUTTON" href="#" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="24px" padding-bottom="42px">
+              Go to Notifications
             </mj-button>
           </mj-column>
         </mj-section>

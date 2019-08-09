@@ -86,7 +86,7 @@
         <mj-section css-class="WINDOW" background-color="#ffffff" border-radius="10px" padding="0px">
           <mj-column>
             <!-- IMAGE -->
-            <mj-image css-class="IMAGE" padding-top="20px" width="303px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/380007D1-C597-4555-B9CD-853942B143AB.png" />
+            <mj-image css-class="IMAGE" padding-top="20px" width="303px" src="img/homepage-illustration@3x.png" />
 
             <!-- TITLE -->
             <mj-text css-class="TITLE" font-size="30px" align="center" color="#1f1f1f" padding-top="20px" font-weight="bold" letter-spacing="-0.6px">Welcome to ProductHired</mj-text>
