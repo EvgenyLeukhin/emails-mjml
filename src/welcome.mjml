@@ -75,7 +75,7 @@
       <!-- HEADER -->
       <mj-section css-class="HEADER" padding="0px" background-color="#00cb83">
         <mj-column>
-          <mj-image padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://cdn.zeplin.io/5c19ec6fb98707af9530a1c2/assets/8DFBE534-51D0-4CE3-A27E-7AFEB0AEB546.svg" alt="logo.png" />
+          <mj-image padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
         </mj-column>
       </mj-section>
 
