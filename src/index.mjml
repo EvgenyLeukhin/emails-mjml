@@ -1,5 +1,11 @@
 <mjml>
   <mj-head>
+    <mj-title>Thank you for purchasing a post with us</mj-title>
+    <mj-attributes>
+      <mj-font name="Helvetica"></mj-font>
+      <mj-all padding="0px" font-family="-apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, sans-serif"></mj-all>
+      <mj-text color="#1f1f1f"></mj-text>
+    </mj-attributes>
     <mj-style>
       @media (max-width: 650px) {
         .WRAPPER { 
@@ -15,14 +21,10 @@
   <mj-body width="600px" background-color="#f4f5f8">
 
     <!-- HEADER -->
-    <mj-section css-class="HEADER" border-top="5px solid #00cb83" padding-top="0px" padding-bottom="0px">
+    <mj-section css-class="HEADER" border-top="5px solid #00cb83" padding="35px 0">
       <mj-column>
-        <mj-image 
-          css-class="LOGO" 
-          width="175px"
-          padding-top="0px" padding-bottom="0px"
+        <mj-image css-class="LOGO" width="175px" alt="logo.png" 
           src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" 
-          alt="logo.png" 
         />
       </mj-column>
     </mj-section>
@@ -30,47 +32,60 @@
     <!-- TITLES -->
     <mj-section css-class="WINDOW" background-color="#ffffff">
       <mj-column width="400px">
-        <mj-text css-class="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" color="#1f1f1f" padding="0px" letter-spacing="-0.6px">Thank you for purchasing a post with us</mj-text>
+        <mj-text css-class="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding-top="30px" padding-bottom="20px" letter-spacing="-0.6px">Thank you for purchasing a&nbsp;post with us</mj-text>
 
-        <mj-text css-class="SUB-TITLE-1" font-size="17px" line-height="25px" align="center" color="#1f1f1f" padding="0px">Hi Rebecca, </mj-text>
+        <mj-text css-class="SUB-TITLE-1" font-size="17px" line-height="25px" align="center" padding-bottom="10px">Hi Rebecca, </mj-text>
 
-        <mj-text css-class="SUB-TITLE-2" font-size="17px"line-height="25px" align="center" color="#1f1f1f" padding="0px">Here’s your receipt from your most recent purchase</mj-text>
+        <mj-text css-class="SUB-TITLE-2" font-size="17px"line-height="25px" align="center" padding-bottom="10px">Here’s your receipt from your most recent purchase</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- RECEIPT -->
-    <mj-section css-class="RECEIPT" background-color="#ffffff">
-      <mj-column width="400px" border="1px solid #ccc" padding="0 40px">
+    <mj-section css-class="RECEIPT" background-color="#ffffff" padding-top="22px">
+      <mj-column width="400px" border="1px solid #ededed" padding="0 40px" background-color="#fdfdfd">
+        <mj-text css-class="RECEIPT__TITLE" font-size="20px" font-weight="bold" line-height="28px" padding="20px 0 22px">Receipt</mj-text>
 
-        <mj-text css-class="RECEIPT__TITLE" font-size="20px" font-weight="bold" line-height="28px" color="#1f1f1f" padding="0px" letter-spacing="-0.6px">Receipt</mj-text>
+        <mj-text font-size="13px" line-height="20px">2 Job Counts</mj-text>
+        <mj-text font-weight="bold" font-size="14px" line-height="24px" padding-bottom="20px">$ 100.00</mj-text>
 
-        <mj-text css-class="RECEIPT__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">2 Job Counts</mj-text>
+        <mj-text font-size="13px" line-height="20px">3 Active Months</mj-text>
+        <mj-text font-weight="bold" font-size="14px" line-height="24px" padding-bottom="20px">$ 100.00</mj-text>
 
-        <mj-text css-class="RECEIPT__PRICE" font-size="14px" line-height="24px" color="#28292c" padding="0px">$ 100.00</mj-text>
-
-        <mj-text css-class="RECEIPT__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">2 3 Active Months</mj-text>
-
-        <mj-text css-class="RECEIPT__PRICE" font-size="14px" line-height="24px" color="#28292c" padding="0px">$ 100.00</mj-text>
-
-        <mj-text css-class="RECEIPT__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">2 Featured Globally Plan</mj-text>
-
-        <mj-text css-class="RECEIPT__PRICE" font-size="14px" line-height="24px" color="#28292c" padding="0px">$ 200.00</mj-text>
+        <mj-text font-size="13px" line-height="20px">Featured Globally Plan</mj-text>
+        <mj-text font-weight="bold" font-size="14px" line-height="24px" padding-bottom="20px">$ 200.00</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- SUB-TOTAL -->
     <mj-section css-class="SUB-TOTAL" background-color="#ffffff">
-      <mj-column width="400px" border="1px solid #ccc" padding="0 40px">
-        <mj-text css-class="SUB-TOTAL__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">2 Job Counts</mj-text>
+      <mj-column width="200px" padding="20px 40px" border-left="1px solid #ededed" background-color="#fdfdfd">
+        <mj-text font-size="16px" line-height="20px">Subtotal</mj-text>
+      </mj-column>
 
-        <mj-text css-class="SUB-TOTAL__PRICE" font-size="14px" line-height="24px" color="#28292c" padding="0px">$ 100.00</mj-text>
+      <mj-column width="200px" padding="20px 40px" border-right="1px solid #ededed" background-color="#fdfdfd">
+        <mj-text align="right" font-weight="bold" font-size="16px" line-height="20px">$ 400.00</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- TAXES -->
+    <mj-section css-class="SUB-TOTAL" background-color="#ffffff">
+      <mj-column width="200px" padding="0 40px 20px" border-left="1px solid #ededed" background-color="#fdfdfd">
+        <mj-text font-size="16px" line-height="20px">Taxes</mj-text>
+      </mj-column>
+
+      <mj-column width="200px" padding="0 40px 20px" border-right="1px solid #ededed" background-color="#fdfdfd">
+        <mj-text align="right" font-weight="bold" font-size="16px" line-height="20px">$ 20.00</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- TOTAL -->
-    <mj-section css-class="TOTAL" background-color="#ffffff">
-      <mj-column width="400px" border="1px solid #ccc" padding="0 40px">
-        <mj-text css-class="SUB-TOTAL__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">TOTAL</mj-text>
+    <mj-section css-class="TOTAL" background-color="#ffffff" padding-bottom="30px">
+      <mj-column width="200px" padding="20px 40px" background-color="#00cb83">
+        <mj-text color="#fff" font-size="16px" line-height="20px">Total</mj-text>
+      </mj-column>
+
+      <mj-column width="200px" padding="20px 40px" background-color="#00cb83">
+        <mj-text color="#fff" align="right" font-weight="bold" font-size="16px" line-height="20px">$ 420.00</mj-text>
       </mj-column>
     </mj-section>
 
