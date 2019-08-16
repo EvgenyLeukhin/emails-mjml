@@ -70,7 +70,7 @@
     <!-- TOTAL -->
     <mj-section css-class="TOTAL" background-color="#ffffff">
       <mj-column width="400px" border="1px solid #ccc" padding="0 40px">
-        <mj-text css-class="SUB-TOTAL__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">TOTAL</mj-text>
+        <mj-text css-class="SUB-TOTAL__ITEM" font-size="13px" line-height="20px" color="#28292c" padding="0px">2 Job Counts</mj-text>
       </mj-column>
     </mj-section>
 
