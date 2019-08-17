@@ -1,11 +1,16 @@
 <mjml>
   <mj-head>
     <mj-title>Thank you for purchasing a post with us</mj-title>
+    <mj-breakpoint width="319px" />
+
     <mj-attributes>
       <mj-font name="Helvetica"></mj-font>
       <mj-all padding="0px" font-family="-apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, sans-serif"></mj-all>
       <mj-text color="#1f1f1f"></mj-text>
     </mj-attributes>
+
+    <mj-style inline="inline">a { text-decoration: none; color: inherit; }</mj-style>
+
     <mj-style>
       @media (max-width: 650px) {
         .WRAPPER { 
@@ -32,18 +37,22 @@
     <!-- TITLES -->
     <mj-section css-class="WINDOW" background-color="#ffffff">
       <mj-column width="400px">
-        <mj-text css-class="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding-top="30px" padding-bottom="20px" letter-spacing="-0.6px">Thank you for purchasing a&nbsp;post with us</mj-text>
+        <mj-text css-class="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center"
+          padding="30px 0 20px" letter-spacing="-0.6px">Thank you for purchasing a&nbsp;post with us</mj-text>
 
-        <mj-text css-class="SUB-TITLE-1" font-size="17px" line-height="25px" align="center" padding-bottom="10px">Hi Rebecca, </mj-text>
+        <mj-text css-class="SUB-TITLE-1" font-size="17px" line-height="25px" align="center"
+          padding-bottom="10px">Hi Rebecca, </mj-text>
 
-        <mj-text css-class="SUB-TITLE-2" font-size="17px"line-height="25px" align="center" padding-bottom="10px">Here’s your receipt from your most recent purchase</mj-text>
+        <mj-text css-class="SUB-TITLE-2" font-size="17px"line-height="25px" align="center"
+          padding-bottom="10px">Here’s your receipt from your most recent purchase</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- RECEIPT -->
     <mj-section css-class="RECEIPT" background-color="#ffffff" padding-top="22px">
       <mj-column width="400px" border="1px solid #ededed" padding="0 40px" background-color="#fdfdfd">
-        <mj-text css-class="RECEIPT__TITLE" font-size="20px" font-weight="bold" line-height="28px" padding="20px 0 22px">Receipt</mj-text>
+        <mj-text css-class="RECEIPT__TITLE" font-size="20px" font-weight="bold" line-height="28px"
+          padding="20px 0 22px">Receipt</mj-text>
 
         <mj-text font-size="13px" line-height="20px">2 Job Counts</mj-text>
         <mj-text font-weight="bold" font-size="14px" line-height="24px" padding-bottom="20px">$ 100.00</mj-text>
@@ -71,7 +80,7 @@
     <mj-section css-class="SUB-TOTAL" background-color="#ffffff">
       <mj-column width="200px" padding="0 40px 20px" border-left="1px solid #ededed" background-color="#fdfdfd">
         <mj-text font-size="16px" line-height="20px">Taxes</mj-text>
-      </mj-column>
+      </mj-column> 
 
       <mj-column width="200px" padding="0 40px 20px" border-right="1px solid #ededed" background-color="#fdfdfd">
         <mj-text align="right" font-weight="bold" font-size="16px" line-height="20px">$ 20.00</mj-text>
@@ -89,8 +98,39 @@
       </mj-column>
     </mj-section>
 
+    <!-- PRE-FOOTER -->
+    <mj-section css-class="PRE-FOOTER">
+      <mj-column width="600px">
+        <mj-text align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px">
+          Send us an email at 
+          <a href="#" style="color: #007cff;">feedback@producthired.com</a> 
+          to let us know what you think about this new email. 
+          Please note that you will not receive a&nbsp;response&nbsp;back.
+        </mj-text>
 
-    <mj-section css-class="FEEDBACK" background-color="lightblue"></mj-section>
-    <mj-section css-class="FOOTER" background-color="lightgreen"></mj-section>
+        <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" 
+          text-decoration="underline" href="#">Unsubscribe</mj-button>
+
+        <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0"
+          text-decoration="underline" href="#">Help</mj-button>
+
+        <mj-divider padding="27px 0" border-width="1px" border-style="solid" border-color="#cccccc" />
+      </mj-column>
+    </mj-section>
+    
+    <!-- FOOTER -->
+    <mj-section css-class="FOOTER" padding-bottom="40px">
+      <mj-column width="50%">
+        <mj-text font-size="13px" line-height="20px" color="#9a9a9a" padding-bottom="5px">
+          Made by ProductHired LLC
+        </mj-text>
+
+        <mj-text font-size="13px" line-height="20px" color="#9a9a9a" padding-bottom="10px">
+          513 Chalk Ln. Austin,TX - 92345
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%"></mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
