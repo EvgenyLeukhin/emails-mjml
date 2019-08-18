@@ -11,21 +11,21 @@
   <mj-column>
     <mj-social mj-class="FOOTER__ICONS" css-class="FOOTER__ICONS">
       <mj-social-element 
-        href="#"
+        href="https://www.facebook.com/producthired/"
         name="facebook"
         src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png"
         alt="facebook"
       />
 
       <mj-social-element
-        href="#"
+        href="https://twitter.com/ProductHired"
         name="twitter"
         src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/twitter%403x.png"
         alt="twitter"
       />
 
       <mj-social-element 
-        href="#"
+        href="https://www.linkedin.com/company/producthired/"
         name="linkedin"
         src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/linkedin%403x.png"
         alt="linkedin"
