@@ -12,3 +12,7 @@ Created by:
 ``` npm start ``` - Start development
 
 ``` npm run deploy ``` - Deploy to gh-pages
+
+# Use
+```<mj-body>``` нужно использовать для фиксированной ширины и бэкграунда, но потом нужно будет делать css-breakpoint ```max-width: 100% !important;```
+```<mj-wrapper>``` нужно использовать для отступов внутри ```<mj-body>```

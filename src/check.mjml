@@ -1,254 +1,196 @@
 <mjml>
-
   <mj-head>
-    <mj-title>Thank you for purchasing a post with us</mj-title>
-    <!-- cancel mobile breakpoint -->
+    <mj-title>Title</mj-title>
+    <!-- disable breakpoint on mobiles -->
     <mj-breakpoint width="319px" /> 
 
     <mj-attributes>
+      <!-- common -->
       <mj-font name="Helvetica" />
       <mj-all padding="0px" font-family="-apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, sans-serif" />
       <mj-text color="#1f1f1f" />
       <mj-social-element padding="0 0 0 10px" target="_blank" background-color="transparent" />
 
-      <mj-class name="LOGO" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
+      <!-- layout -->
+      <mj-class name="BODY" width="600px" background-color="#f4f5f8" />
+      <mj-class name="LOGO" align="center" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
+
+      <mj-class name="CONTENT" width="400px" background-color="#fff" />
+      <mj-class name="CONTENT__WRAPPER" padding-bottom="30px" />
 
       <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="30px 0 20px" letter-spacing="-0.6px" />
-      <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" />
-      <mj-class name="SUB-TITLE-2" font-size="17px" line-height="25px" align="center" padding-bottom="30px" />
+      <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" padding-bottom="35px" />
 
-      <mj-class name="WINDOW" background-color="#ffffff" padding="0 100px" border-radius="10px" />
-
-      <mj-class name="RECEIPT" background-color="#fdfdfd" border="1px solid #ededed" padding="0 40px" />
-      <mj-class name="RECEIPT__TITLE" font-size="20px" font-weight="bold" line-height="28px" padding="20px 0 22px" />
+      <mj-class name="RECEIPT" background-color="#fdfdfd" border="1px solid #ededed" padding="20px 5% 5px" /> 
+      <mj-class name="RECEIPT__TITLE" font-size="20px" font-weight="bold" line-height="28px" padding-bottom="25px" />
       <mj-class name="RECEIPT__ITEM" font-size="13px" line-height="20px" />
-      <mj-class name="RECEIPT__PRICE" font-size="14px" line-height="24px" padding-bottom="20px" font-weight="bold" />
+      <mj-class name="RECEIPT__PRICE" font-size="14px" line-height="24px" font-weight="bold" padding-bottom="18px" />
 
-      <mj-class name="SUB-TOTAL" border="1px solid #ededed" border-top="1px solid transparent" padding="10px 40px 15px" />
+      <mj-class name="SUB-TOTAL" background-color="#fff" padding="8px 5% 17px" />
       <mj-class name="SUB-TOTAL__TITLE" padding="10px 0 5px" font-size="16px" line-height="20px" />
       <mj-class name="SUB-TOTAL__PRICE" padding="10px 0 5px" align="right" font-weight="bold" font-size="16px" line-height="20px" />
 
-      <mj-class name="TOTAL" padding="20px 40px" background-color="#00cb83" border-radius="0 0 4px 4px" />
+      <mj-class name="TOTAL" padding="20px 5% 20px" background-color="#00cb83" />
       <mj-class name="TOTAL__TITLE" color="#fff" font-size="16px" line-height="20px" />
       <mj-class name="TOTAL__PRICE" color="#fff" font-size="16px" line-height="20px" font-weight="bold" align="right" />
 
-      <mj-class name="PRE-FOOTER__TEXT" align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px" />
-      <mj-class name="PRE-FOOTER__BUTTON" color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" text-decoration="underline" />
-
-      <mj-class name="PRE-FOOTER__DEVIDER" padding="27px 0" border-width="1px" border-style="solid" border-color="#cccccc" />
+      <mj-class name="FEEDBACK__TEXT" align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px" />
+      <mj-class name="FEEDBACK__BUTTON" color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" text-decoration="underline" />
+      <mj-class name="FEEDBACK__DEVIDER" padding="27px 0" border-width="1px" border-style="solid" border-color="#cccccc" />
 
       <mj-class name="FOOTER__TEXT" font-size="13px" line-height="20px" color="#9a9a9a" padding="3px 0 2px" />
       <mj-class name="FOOTER__ICONS" font-size="15px" icon-size="30px" align="right" padding-top="10px" />
-    </mj-attributes> 
+    </mj-attributes>
 
     <mj-style inline="inline">
-      .WINDOW { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); }
-
       a { text-decoration: none; color: inherit; }
+      .CONTENT { 
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        border-radius: 10px 10px 0 0;
+      }
     </mj-style>
 
     <mj-style>
       @media (max-width: 620px) {
-        .BODY { 
+        .BODY, .CONTENT {
           padding-left: 10px !important;
           padding-right: 10px !important;
           max-width: 100% !important;
         }
 
-        .LOGO { padding: 18px 0 18px 0 !important; }
-        .LOGO img { 
+        .LOGO { padding: 18px 0 !important; }
+        .LOGO td, .LOGO img { 
           width: 129px !important; 
           height: 31px !important; 
         }
 
-        .WINDOW > table > tbody > tr > td {
-          padding-left: 0px !important;
-          padding-right: 0px !important;
+        .FEEDBACK__TEXT {
+          padding: 20px 0 10px 0 !important;
+        }
+        .FEEDBACK__TEXT div {
+          font-size: 13px !important;
+          line-height: 18px !important;
         }
 
-        .TITLE { padding: 18px 0 15px !important; }
+        .FEEDBACK__DEVIDER { padding: 10px 0 20px 0 !important; }
+
+        .FOOTER div, .FOOTER td {
+          text-align: center !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        } 
+
+
+        .TITLE { padding: 20px 0 10px 0 !important; }
         .TITLE div {
           font-size: 22px !important;
           letter-spacing: normal !important;
           line-height: 28px !important;
         }
 
-        .SUB-TITLE { padding-bottom: 5px !important; }
-        .SUB-TITLE-2 { padding-bottom: 18px !important; }
+        .SUB-TITLE { padding-bottom: 27px !important; }
         .SUB-TITLE div {
           font-size: 15px !important;
           line-height: 22px !important;
-        }
-
-        .RECEIPT > table > tbody > tr > td,
-        .SUB-TOTAL > table > tbody > tr > td,
-        .TOTAL > table > tbody > tr > td {
-          padding-left: 20px !important;
-          padding-right: 20px !important;
-        } 
-
-        .TOTAL__SECTION > table > tbody > tr > td {
-          padding-bottom: 0 !important;
-        }
-
-
-        .PRE-FOOTER__TEXT {
-          padding: 20px 0 10px 0 !important;
-        }
-        .PRE-FOOTER__TEXT div {
-          font-size: 13px !important;
-          line-height: 18px !important;
-        }
-
-        .PRE-FOOTER__DEVIDER { padding: 10px 0 20px 0 !important; }
-
-        .FOOTER div, .FOOTER td {
-          text-align: center !important;
-          width: 100% !important;
-          max-width: 100% !important;
         }
       }
     </mj-style>
   </mj-head>
 
-
-  <!-- BODY CONTAINER -->
-  <mj-body css-class="BODY" width="600px" background-color="#f4f5f8">
-
-    <!-- HEADER with LOGO -->
-    <mj-section border-top="5px solid #00cb83">
-      <mj-column>
-        <mj-image mj-class="LOGO" css-class="LOGO" />
-      </mj-column>
-    </mj-section>
+  <mj-body mj-class="BODY" css-class="BODY">
+    <mj-include path="./parts/header.mjml" />
 
 
-    <!-- WHITE-WINDOW -->
-    <mj-wrapper mj-class="WINDOW" css-class="WINDOW">
-
-      <!-- TITLES -->
-      <mj-section>
-        <mj-column>
-          <mj-text mj-class="TITLE" css-class="TITLE">
-            Thank you for purchasing a&nbsp;post&nbsp;with&nbsp;us
-          </mj-text>
-
-          <mj-text  mj-class="SUB-TITLE" css-class="SUB-TITLE">Hi Rebecca,</mj-text>
-
-          <mj-text mj-class="SUB-TITLE-2" css-class="SUB-TITLE-2">
-            Here’s your receipt from your most recent purchase
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- RECEIPT -->
-      <mj-section>
-        <mj-wrapper mj-class="RECEIPT" css-class="RECEIPT">
-          <mj-column>
-            <mj-text mj-class="RECEIPT__TITLE" css-class="RECEIPT__TITLE">Receipt</mj-text>
-
-            <mj-text mj-class="RECEIPT__ITEM" css-class="RECEIPT__ITEM">2 Job Counts</mj-text>
-            <mj-text mj-class="RECEIPT__PRICE" css-class="RECEIPT__PRICE">$ 100.00</mj-text>
-
-            <mj-text mj-class="RECEIPT__ITEM" css-class="RECEIPT__ITEM">3 Active Months</mj-text>
-            <mj-text mj-class="RECEIPT__PRICE" css-class="RECEIPT__PRICE">$ 100.00</mj-text>
-
-            <mj-text mj-class="RECEIPT__ITEM" css-class="RECEIPT__ITEM">Featured Globally Plan</mj-text>
-            <mj-text mj-class="RECEIPT__PRICE" css-class="RECEIPT__PRICE">$ 200.00</mj-text>
-          </mj-column>
-        </mj-wrapper>
-      </mj-section>
-
-      <!-- SUB-TOTAL and TAXES-->
-      <mj-section>
-        <mj-wrapper mj-class="SUB-TOTAL" css-class="SUB-TOTAL">
-          <mj-column>
-            <mj-text mj-class="SUB-TOTAL__TITLE" css-class="SUB-TOTAL__TITLE">Subtotal</mj-text>
-            <mj-text mj-class="SUB-TOTAL__TITLE" css-class="SUB-TOTAL__TITLE">Taxes</mj-text>
-          </mj-column>
-
-          <mj-column>
-            <mj-text mj-class="SUB-TOTAL__PRICE" css-class="SUB-TOTAL__PRICE">$ 400.00</mj-text>
-            <mj-text mj-class="SUB-TOTAL__PRICE" css-class="SUB-TOTAL__PRICE">$ 20.00</mj-text>
-          </mj-column>
-        </mj-wrapper>
-      </mj-section>
-
-      <!-- TOTAL -->
-      <mj-section css-class="TOTAL__SECTION" padding-bottom="30px">
-        <mj-wrapper mj-class="TOTAL" css-class="TOTAL">
-          <mj-column>
-            <mj-text mj-class="TOTAL__TITLE" css-class="TOTAL__TITLE">Total</mj-text>
-          </mj-column>
-
-          <mj-column>
-            <mj-text mj-class="TOTAL__PRICE" css-class="TOTAL__PRICE">$ 420.00</mj-text>
-          </mj-column>
-        </mj-wrapper>
-      </mj-section>
-    </mj-wrapper>
-
-
-    <!-- PRE-FOOTER -->
+    <!-- CONTENT -->
     <mj-section>
-      <mj-column>
-        <mj-text mj-class="PRE-FOOTER__TEXT" css-class="PRE-FOOTER__TEXT">
-          Send us an email at <a href="#" style="color: #007cff;">feedback@producthired.com</a> 
-          to let us know what you think about this new email.
-          Please note that you will not receive a&nbsp;response&nbsp;back.
-        </mj-text>
+      <mj-body mj-class="CONTENT" css-class="CONTENT">
+        <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
 
-        <mj-button mj-class="PRE-FOOTER__BUTTON" css-class="PRE-FOOTER__BUTTON" href="#">Unsubscribe</mj-button>
-        <mj-button mj-class="PRE-FOOTER__BUTTON" css-class="PRE-FOOTER__BUTTON" href="#">Help</mj-button>
+          <!-- TITLEs -->
+          <mj-section>
+            <mj-column>
+              <mj-text mj-class="TITLE" css-class="TITLE">
+                Thank you for purchasing a&nbsp;post&nbsp;with&nbsp;us
+              </mj-text>
 
-        <mj-divider mj-class="PRE-FOOTER__DEVIDER" css-class="PRE-FOOTER__DEVIDER" />
-      </mj-column>
+              <mj-text  mj-class="SUB-TITLE" css-class="SUB-TITLE">
+                Hi <span>Rebecca</span>,<br/>
+                Here’s your receipt from your most recent purchase
+              </mj-text>
+            </mj-column>
+          </mj-section>
+          <!-- /TITLEs -->
+
+
+          <!-- RECEIPT -->
+          <mj-section mj-class="RECEIPT" css-class="RECEIPT">
+            <mj-column>
+              <mj-text mj-class="RECEIPT__TITLE" css-class="RECEIPT__TITLE">Receipt</mj-text>
+
+              <mj-text mj-class="RECEIPT__ITEM" css-class="RECEIPT__ITEM">2 Job Counts</mj-text>
+              <mj-text mj-class="RECEIPT__PRICE" css-class="RECEIPT__PRICE">$ 100.00</mj-text>
+
+              <mj-text mj-class="RECEIPT__ITEM" css-class="RECEIPT__ITEM">3 Active Months</mj-text>
+              <mj-text mj-class="RECEIPT__PRICE" css-class="RECEIPT__PRICE">$ 100.00</mj-text>
+
+              <mj-text mj-class="RECEIPT__ITEM" css-class="RECEIPT__ITEM">Featured Globally Plan</mj-text>
+              <mj-text mj-class="RECEIPT__PRICE" css-class="RECEIPT__PRICE">$ 200.00</mj-text>
+            </mj-column>
+          </mj-section>
+          <!-- /RECEIPT -->
+
+
+
+          <!-- SUB-TOTAL -->
+          <mj-section mj-class="SUB-TOTAL" css-class="SUB-TOTAL">
+            <mj-column>
+              <mj-text mj-class="SUB-TOTAL__TITLE" css-class="SUB-TOTAL__TITLE">Subtotal</mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text mj-class="SUB-TOTAL__PRICE" css-class="SUB-TOTAL__PRICE">$ 400.00</mj-text>
+            </mj-column>
+          </mj-section>
+          <!-- /SUB-TOTAL -->
+
+
+
+          <!-- TAXES -->
+          <mj-section mj-class="SUB-TOTAL" css-class="SUB-TOTAL">
+            <mj-column>
+              <mj-text mj-class="SUB-TOTAL__TITLE" css-class="SUB-TOTAL__TITLE">Taxes</mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text mj-class="SUB-TOTAL__PRICE" css-class="SUB-TOTAL__PRICE">$ 20.00</mj-text>
+            </mj-column>
+          </mj-section>
+          <!-- /TAXES -->
+
+
+
+          <!-- TOTAL -->
+          <mj-section mj-class="TOTAL" css-class="TOTAL">
+            <mj-column>
+              <mj-text mj-class="TOTAL__TITLE" css-class="TOTAL__TITLE">Total</mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text mj-class="TOTAL__PRICE" css-class="TOTAL__PRICE">$ 420.00</mj-text>
+            </mj-column>
+          </mj-section>
+          <!-- /TOTAL -->
+
+
+        </mj-wrapper>
+      </mj-body>
     </mj-section>
+    <!-- /CONTENT -->
 
 
-    <!-- FOOTER -->
-    <mj-section css-class="FOOTER">
 
-      <!-- ADDRESS -->
-      <mj-column>
-        <mj-text mj-class="FOOTER__TEXT" css-class="FOOTER__TEXT">Made by ProductHired LLC</mj-text>
-        <mj-text mj-class="FOOTER__TEXT" css-class="FOOTER__TEXT">513 Chalk Ln. Austin,TX - 92345</mj-text>
-      </mj-column>
-
-      <!-- SOCIAL -->
-      <mj-column>
-        <mj-social mj-class="FOOTER__ICONS" css-class="FOOTER__ICONS">
-          <mj-social-element 
-            href="#"
-            name="facebook"
-            src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png"
-            alt="facebook"
-          />
-
-          <mj-social-element
-            href="#"
-            name="twitter"
-            src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/twitter%403x.png"
-            alt="twitter"
-          />
-
-          <mj-social-element 
-            href="#"
-            name="linkedin"
-            src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/linkedin%403x.png"
-            alt="linkedin"
-          />
-
-          <mj-social-element 
-            href="#" 
-            name="angellist" 
-            src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/angellist%403x.png"
-            alt="angellist"
-          />
-        </mj-social>
-      </mj-column>
-    </mj-section>
-
-    <mj-spacer height="40px" />
+    <mj-include path="./parts/feedback.mjml" />
+    <mj-include path="./parts/footer.mjml" />
   </mj-body>
+
+
 </mjml>
