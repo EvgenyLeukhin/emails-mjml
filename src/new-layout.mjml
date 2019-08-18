@@ -14,6 +14,17 @@
       <mj-class name="BODY" width="600px" background-color="#f4f5f8" />
       <mj-class name="LOGO" align="center" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
 
+      <mj-class name="CONTENT" width="400px" background-color="#fff" />
+      <mj-class name="CONTENT__WRAPPER" padding-bottom="0px" />
+
+      <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="10px 0 10px" letter-spacing="-0.6px" />
+
+      <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" padding="10px 0 10px" />
+
+      <mj-class name="IMAGE" padding="10px 0 10px" width="82px" alt="image.png" />
+
+      <mj-class name="BUTTON" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding="10px 0 10px" />
+
       <mj-class name="FEEDBACK__TEXT" align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px" />
       <mj-class name="FEEDBACK__BUTTON" color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" text-decoration="underline" />
       <mj-class name="FEEDBACK__DEVIDER" padding="27px 0" border-width="1px" border-style="solid" border-color="#cccccc" />
@@ -24,11 +35,17 @@
 
     <mj-style inline="inline">
       a { text-decoration: none; color: inherit; }
+      .CONTENT { 
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        border-radius: 10px;
+      }
     </mj-style>
 
     <mj-style>
       @media (max-width: 620px) {
-        .BODY {  
+        .BODY, .CONTENT {
           padding-left: 10px !important;
           padding-right: 10px !important;
           max-width: 100% !important;
@@ -40,10 +57,37 @@
           height: 31px !important; 
         }
 
+        .TITLE { padding: 10px 0 10px !important; }
+        .TITLE div {
+          font-size: 22px !important;
+          letter-spacing: normal !important;
+          line-height: 28px !important;
+        }
+
+        .SUB-TITLE { padding-bottom: 27px !important; }
+        .SUB-TITLE div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+
+        .IMAGE    { padding: 10px 0 10px !important; }
+        .IMAGE td { width: 66px !important; }
+
+        .BUTTON { 
+          width: 200px !important;
+          height: 46px !important;
+          padding: 10px 0 10px !important;
+        }
+        .BUTTON td { height: 46px !important; }
+        .BUTTON a {
+           font-size: 15px !important;
+           line-height: 18px !important;
+        }
+
         .FEEDBACK__TEXT {
           padding: 20px 0 10px 0 !important;
         }
-        .FEEDBACK__TEXT div {
+        .FEEDBACK__TEXT div { 
           font-size: 13px !important;
           line-height: 18px !important;
         }
@@ -60,6 +104,44 @@
   </mj-head>
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
+
+    <mj-section>
+      <mj-body mj-class="CONTENT" css-class="CONTENT">
+        <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
+
+          <mj-section>
+            <mj-column>
+              <!-- TITLE -->
+              <mj-text mj-class="TITLE" css-class="TITLE">
+                Title
+              </mj-text>
+              <!-- /TITLE -->
+
+
+              <!-- SUB-TITLE -->
+              <mj-text mj-class="SUB-TITLE" css-class="SUB-TITLE">
+                Hi <span>Rebecca</span>,<br/>
+                Here’s your receipt from your most recent purchase
+              </mj-text>
+              <!-- /SUB-TITLE -->
+
+
+              <!-- IMAGE -->
+              <mj-image mj-class="IMAGE" css-class="IMAGE" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
+              <!-- /IMAGE -->
+
+
+              <!-- BUTTON -->
+              <mj-button mj-class="BUTTON" css-class="BUTTON" href="#">
+                Button
+              </mj-button>
+              <!-- /BUTTON -->
+            </mj-column>
+          </mj-section>
+
+        </mj-wrapper>
+      </mj-body>
+    </mj-section>
 
 
     <mj-include path="./parts/feedback.mjml" />
