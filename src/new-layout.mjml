@@ -159,6 +159,5 @@
 
     <mj-include path="./parts/feedback.mjml" />
     <mj-include path="./parts/footer.mjml" />
-    <mj-spacer height="150px" />
   </mj-body>
 </mjml>
