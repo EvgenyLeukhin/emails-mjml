@@ -1,8 +1,8 @@
 <mjml>
   <mj-head>
-    <mj-title>Current stats</mj-title>
+    <mj-title>Title</mj-title>
     <!-- disable breakpoint on mobiles -->
-    <mj-breakpoint width="500px" /> 
+    <mj-breakpoint width="319px" /> 
     <mj-attributes>
       <!-- common -->
       <mj-font name="Helvetica" />
@@ -12,19 +12,26 @@
 
       <!-- layout -->
       <mj-class name="BODY" width="600px" background-color="#f4f5f8" />
+      <mj-class name="HEADER__GREEN" background-color="#00cb83" />
+      <mj-class name="HEADER__DARK" background-color="#1f1d4e" />
+
       <mj-class name="LOGO" align="center" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
 
-      <mj-class name="CONTENT" width="500px" background-color="#fff" />
+      <mj-class name="LOGO__GREEN" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
+
+      <mj-class name="LOGO__DARK" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="img/full-logo-ph-port-gore@3x.png" alt="logo.png" />
+
+
+      <mj-class name="CONTENT" width="400px" background-color="#fff" />
       <mj-class name="CONTENT__WRAPPER" padding-bottom="0px" />
 
-      <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="25px 0 15px" letter-spacing="-0.6px" />
+      <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="10px 0 10px" letter-spacing="-0.6px" />
 
-      <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" padding="0 0 15px" />
+      <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" padding="10px 0 10px" />
 
-      <mj-class name="CARD" background-color="#fdfdfd" />
-      <mj-class name="CARD__WRAPPER" border-radius="4px" border="1px solid #ededed" padding="20px 0 0" />
+      <mj-class name="IMAGE" padding="10px 0 10px" width="82px" alt="image.png" />
 
-      <mj-class name="BUTTON" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding="30px 0 40px" />
+      <mj-class name="BUTTON" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding="10px 0 10px" />
 
       <mj-class name="FEEDBACK__TEXT" align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px" />
       <mj-class name="FEEDBACK__BUTTON" color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" text-decoration="underline" />
@@ -45,27 +52,30 @@
     </mj-style>
 
     <mj-style>
-      @media (max-width: 500px) {
+      @media (max-width: 620px) {
         .BODY, .CONTENT {
           padding-left: 10px !important;
           padding-right: 10px !important;
           max-width: 100% !important;
         }
 
-        .LOGO { padding: 18px 0 !important; }
-        .LOGO td, .LOGO img { 
+        .LOGO, .LOGO__GREEN, .LOGO__DARK { padding: 18px 0 !important; }
+
+        .LOGO td, .LOGO img,
+        .LOGO__GREEN td, .LOGO__GREEN img,
+        .LOGO__DARK td, .LOGO__DARK img { 
           width: 129px !important; 
           height: 31px !important; 
         }
 
-        .TITLE { padding: 15px 0 10px !important; }
+        .TITLE { padding: 10px 0 10px !important; }
         .TITLE div {
           font-size: 22px !important;
           letter-spacing: normal !important;
           line-height: 28px !important;
         }
 
-        .SUB-TITLE { padding-bottom: 10px !important; }
+        .SUB-TITLE { padding-bottom: 27px !important; }
         .SUB-TITLE div {
           font-size: 15px !important;
           line-height: 22px !important;
@@ -77,7 +87,7 @@
         .BUTTON { 
           width: 200px !important;
           height: 46px !important;
-          padding: 20px 0 30px !important;
+          padding: 10px 0 10px !important;
         }
         .BUTTON td { height: 46px !important; }
         .BUTTON a {
@@ -105,6 +115,8 @@
   </mj-head>
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
+    <mj-include path="./parts/header-green.mjml" />
+    <mj-include path="./parts/header-dark.mjml" />
 
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
@@ -114,7 +126,7 @@
             <mj-column>
               <!-- TITLE -->
               <mj-text mj-class="TITLE" css-class="TITLE">
-                Current stats for your job<br /> posting update
+                Title
               </mj-text>
               <!-- /TITLE -->
 
@@ -123,52 +135,18 @@
               <mj-text mj-class="SUB-TITLE" css-class="SUB-TITLE">
                 Hi <span>Rebecca</span>,<br/>
                 Here’s your receipt from your most recent purchase
-              </mj-text> 
+              </mj-text>
               <!-- /SUB-TITLE -->
 
 
-              <!-- ITEM -->
-              <mj-body mj-class="CARD" css-class="CARD">
-                <mj-wrapper mj-class="CARD__WRAPPER" css-class="CARD__WRAPPER">
-                  <mj-section>
-                    <mj-column>
-                      <mj-text align="center" font-size="12px" color="#a0a6b8" padding-bottom="20px">
-                        JOB ADVERTISEMENT <span style="color: #00cb83;">● LIVE</span>
-                      </mj-text>
-
-                      <mj-image width="116px" src="http://media.heartlandtv.com/images/ap-netflix-graphic-stock-photo.jpg" padding-bottom="20px" />
-
-                      <mj-text align="center" font-size="20px" color="#28292c" font-weight="bold" padding-bottom="20px">
-                        Sr. Product Manager
-                      </mj-text>
-                    </mj-column>
-                  </mj-section>
-
-                  <mj-section>
-                    <mj-column>
-                      <mj-text align="center" font-size="14px" color="#28292c" padding-bottom="20px">
-                        <b>2,300</b> Impressions
-                      </mj-text>
-                    </mj-column>
-                    <mj-column>
-                      <mj-text align="center" font-size="14px" color="#28292c" padding-bottom="20px">
-                        <b>482</b> Pageviews
-                      </mj-text>
-                    </mj-column>
-                    <mj-column>
-                      <mj-text align="center" font-size="14px" color="#28292c" padding-bottom="20px">
-                        <b>197</b> Clicked ‘Apply’
-                      </mj-text>
-                    </mj-column>
-                  </mj-section>
-                </mj-wrapper>
-              </mj-body>
-              <!-- /ITEM -->
+              <!-- IMAGE -->
+              <mj-image mj-class="IMAGE" css-class="IMAGE" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
+              <!-- /IMAGE -->
 
 
               <!-- BUTTON -->
               <mj-button mj-class="BUTTON" css-class="BUTTON" href="#">
-                View More Stats
+                Button
               </mj-button>
               <!-- /BUTTON -->
             </mj-column>

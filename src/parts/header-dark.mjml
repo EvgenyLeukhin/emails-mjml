@@ -1,0 +1,5 @@
+<mj-section mj-class="HEADER__DARK" css-class="HEADER__DARK">
+  <mj-column>
+    <mj-image mj-class="LOGO__DARK" css-class="LOGO__DARK" />
+  </mj-column>
+</mj-section>

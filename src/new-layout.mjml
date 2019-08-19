@@ -12,7 +12,15 @@
 
       <!-- layout -->
       <mj-class name="BODY" width="600px" background-color="#f4f5f8" />
+      <mj-class name="HEADER__GREEN" background-color="#00cb83" />
+      <mj-class name="HEADER__DARK" background-color="#1f1d4e" />
+
       <mj-class name="LOGO" align="center" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
+
+      <mj-class name="LOGO__GREEN" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
+
+      <mj-class name="LOGO__DARK" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="img/full-logo-ph-port-gore@3x.png" alt="logo.png" />
+
 
       <mj-class name="CONTENT" width="400px" background-color="#fff" />
       <mj-class name="CONTENT__WRAPPER" padding-bottom="0px" />
@@ -51,8 +59,11 @@
           max-width: 100% !important;
         }
 
-        .LOGO { padding: 18px 0 !important; }
-        .LOGO td, .LOGO img { 
+        .LOGO, .LOGO__GREEN, .LOGO__DARK { padding: 18px 0 !important; }
+
+        .LOGO td, .LOGO img,
+        .LOGO__GREEN td, .LOGO__GREEN img,
+        .LOGO__DARK td, .LOGO__DARK img { 
           width: 129px !important; 
           height: 31px !important; 
         }
@@ -104,6 +115,8 @@
   </mj-head>
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
+    <mj-include path="./parts/header-green.mjml" />
+    <mj-include path="./parts/header-dark.mjml" />
 
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
