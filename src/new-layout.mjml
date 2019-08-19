@@ -19,7 +19,7 @@
 
       <mj-class name="LOGO__GREEN" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
 
-      <mj-class name="LOGO__DARK" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="img/full-logo-ph-port-gore@3x.png" alt="logo.png" />
+      <mj-class name="LOGO__DARK" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-port-gore%403x.png" alt="logo.png" />
 
 
       <mj-class name="CONTENT" width="400px" background-color="#fff" />

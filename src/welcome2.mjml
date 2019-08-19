@@ -19,7 +19,7 @@
 
       <mj-class name="LOGO__GREEN" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
 
-      <mj-class name="LOGO__DARK" padding="35px 0" css-class="LOGO" width="175px" src="img/full-logo-ph-port-gore@3x.png" alt="logo.png" />
+      <mj-class name="LOGO__DARK" padding="35px 0" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-port-gore%403x.png" alt="logo.png" />
 
 
       <mj-class name="CONTENT" width="600px" background-color="#fff" />
@@ -147,7 +147,7 @@
           <!-- Section #1 -->
           <mj-section padding-bottom="30px" padding-top="30px">
             <mj-column width="35%">
-              <mj-image src="img/group-2@3x.jpg" alt="image.jpg" />
+              <mj-image src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/group-2%403x.jpg" alt="image.jpg" />
             </mj-column>
 
             <mj-column width="10%" />
@@ -178,7 +178,7 @@
             <mj-column width="10%" />
 
             <mj-column width="35%">
-              <mj-image src="img/group-3-copy@3x.jpg" alt="image.jpg" />
+              <mj-image src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/group-3-copy%403x.jpg" alt="image.jpg" />
             </mj-column>
           </mj-section>
           <!-- /Section #2 -->
@@ -187,7 +187,7 @@
           <!-- Section #3 -->
           <mj-section padding-bottom="30px">
             <mj-column width="35%">
-              <mj-image src="img/group-27@3x.jpg" alt="image.jpg" />
+              <mj-image src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/group-27%403x.jpg" alt="image.jpg" />
             </mj-column>
 
             <mj-column width="10%" />
