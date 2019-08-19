@@ -17,21 +17,21 @@
 
       <mj-class name="LOGO" align="center" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
 
-      <mj-class name="LOGO__GREEN" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
+      <mj-class name="LOGO__GREEN" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
 
-      <mj-class name="LOGO__DARK" padding-top="35px" padding-bottom="55px" css-class="LOGO" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-port-gore%403x.png" alt="logo.png" />
+      <mj-class name="LOGO__DARK" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-port-gore%403x.png" alt="logo.png" />
 
 
       <mj-class name="CONTENT" width="400px" background-color="#fff" />
       <mj-class name="CONTENT__WRAPPER" padding-bottom="0px" />
 
-      <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="10px 0 10px" letter-spacing="-0.6px" />
+      <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="15px 0 10px" letter-spacing="-0.6px" />
 
       <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" padding="10px 0 10px" />
 
-      <mj-class name="IMAGE" padding="10px 0 10px" width="82px" alt="image.png" />
+      <mj-class name="IMAGE" padding="50px 0 15px" alt="image.png" />
 
-      <mj-class name="BUTTON" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding="10px 0 10px" />
+      <mj-class name="BUTTON" background-color="#007cff" color="#ffffff" height="50px" width="180px" inner-padding="0px" font-size="17px" font-weight="bold" padding="20px 0 40px" />
 
       <mj-class name="FEEDBACK__TEXT" align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px" />
       <mj-class name="FEEDBACK__BUTTON" color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" text-decoration="underline" />
@@ -75,19 +75,19 @@
           line-height: 28px !important;
         }
 
-        .SUB-TITLE { padding-bottom: 27px !important; }
+        .SUB-TITLE { padding-bottom: 10px !important; }
         .SUB-TITLE div {
           font-size: 15px !important;
           line-height: 22px !important;
         }
 
-        .IMAGE    { padding: 10px 0 10px !important; }
+        .IMAGE    { padding: 25px 0 10px !important; }
         .IMAGE td { width: 66px !important; }
 
         .BUTTON { 
           width: 200px !important;
           height: 46px !important;
-          padding: 10px 0 10px !important;
+          padding: 10px 0 30px !important;
         }
         .BUTTON td { height: 46px !important; }
         .BUTTON a {
@@ -124,6 +124,11 @@
 
           <mj-section>
             <mj-column>
+              <!-- IMAGE -->
+                <mj-image mj-class="IMAGE" css-class="IMAGE" width="182px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
+              <!-- /IMAGE -->
+
+              
               <!-- TITLE -->
               <mj-text mj-class="TITLE" css-class="TITLE">
                 Title
@@ -137,11 +142,6 @@
                 Here’s your receipt from your most recent purchase
               </mj-text>
               <!-- /SUB-TITLE -->
-
-
-              <!-- IMAGE -->
-              <mj-image mj-class="IMAGE" css-class="IMAGE" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/shield%403x.png" />
-              <!-- /IMAGE -->
 
 
               <!-- BUTTON -->

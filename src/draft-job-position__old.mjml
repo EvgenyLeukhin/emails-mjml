@@ -1,0 +1,235 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="319px" />
+    <mj-style>
+      body {
+          font-family: -apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+          font-family: Helvetica;
+      }
+
+      @media (max-width: 650px) {
+        .WRAPPER { 
+          padding: 0 20px 0 20px !important;
+          max-width: 500px !important;
+        }
+
+        .ITEM-WRAPPER { padding: 0 10px !important; }
+
+        .LOGO    { padding: 18px 0 18px 0 !important; }
+        .LOGO td { width: 129px !important; }
+
+        .TITLE {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .TITLE div {
+          font-size: 22px !important;
+          line-height: 28px !important;
+        }
+
+        .SUB-TITLE-1, .SUB-TITLE-2 {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+
+        .SUB-TITLE-1 div, 
+        .SUB-TITLE-2 div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+
+        .BUTTON { 
+          width: 200px !important;
+          height: 46px !important;
+        }
+        .BUTTON td { height: 46px !important; }
+        .BUTTON a {
+           font-size: 17px !important;
+           line-height: 17px !important;
+        }
+
+        .FEEDBACK div {
+          font-size: 13px !important;
+          line-height: 18px !important;
+        }
+        .FEEDBACK td { padding: 10px 0 5px 0 !important; }
+
+        .DEVIDER td { padding: 8px 0px 0px 0px !important; }
+
+        @media (max-width: 500px) {
+          .FOOTER div,
+          .FOOTER td {
+            text-align: center !important;
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="900px" padding="0px">
+    <mj-wrapper css-class="WRAPPER" padding="0px" background-color="#f4f5f8" border-top="5px solid #00cb83">
+
+      <!-- HEADER -->
+      <mj-section css-class="HEADER" padding="0px">
+        <mj-column>
+          <mj-image css-class="LOGO" padding-top="35px" padding-bottom="38px" padding="0px" width="175px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
+        </mj-column>
+      </mj-section>
+
+      <!-- INNER 600px -->
+      <mj-body width="600px">
+
+        <!-- WINDOW -->
+        <mj-section css-class="WINDOW" background-color="#ffffff" padding-top="0px" padding-bottom="10px" border-radius="10px 10px 0 0">
+          <mj-column>
+            <!-- TITLE -->
+            <mj-text css-class="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" color="#1f1f1f" padding-top="28px" padding-bottom="0px">Complete your unfinished <br/> job posting</mj-text>
+
+            <!-- SUB-TITLE-1 -->
+            <mj-text css-class="SUB-TITLE-1" font-size="17px" line-height="25px" align="center" color="#1f1f1f" padding-top="20px">Hi Rebecca,</mj-text>
+
+            <!-- SUB-TITLE-2 -->
+            <mj-text css-class="SUB-TITLE-2" font-size="17px" line-height="25px" align="center" color="#1f1f1f" padding-top="0px" padding-bottom="22px">You have an unfinished posting created for Netflix. We guess you must have forget, here’s a gentle push</mj-text>
+          </mj-column>
+        </mj-section>
+
+
+        <!-- ITEM-WRAPPER 600px -->
+        <mj-wrapper css-class="ITEM-WRAPPER" background-color="#ffffff" padding-top="0px" padding-bottom="10px">
+          <mj-body width="400px">
+            <mj-section css-class="LIST-ITEM" background-color="#fdfdfd" border="1px solid #ededed" border-radius="4px" padding="0px">
+
+              <!-- LEFT-COL -->
+              <mj-column width="80%">
+                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px" line-height="18px">
+                  <a style="color: #28292c; text-decoration: none;" href="#">Technical Product Manager – Central Systems, Data & Tools</a>
+                </mj-text>
+
+                <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">
+                  NETFLIX
+                </mj-text>
+
+                <mj-text font-size="13px" color="#28292c" padding="10px 0 20px 15px">
+                  <img width="13" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/location.png" alt="location.png" valign="top" />&nbsp;
+                  Petropavlovsk-Kamchatsky
+                </mj-text>
+              </mj-column>
+
+              <!-- RIGHT-COL -->
+              <mj-column width="20%">
+                <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://fybstoreid.com/wp-content/uploads/2019/06/8c740bc13bd5a0a19c24d28dff98cbdd-2.png" href="#" />
+              </mj-column>
+            </mj-section>
+          </mj-body>
+        </mj-wrapper>
+
+
+
+        <!-- ITEM-WRAPPER 600px -->
+        <mj-wrapper css-class="ITEM-WRAPPER" background-color="#ffffff" padding="0px" padding-bottom="10px">
+          <mj-body width="400px">
+            <mj-section css-class="LIST-ITEM" background-color="#fdfdfd" border="1px solid #ededed" border-radius="4px" padding="0px">
+
+              <!-- LEFT-COL -->
+              <mj-column width="80%">
+              
+                <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px" line-height="18px">
+                  <a style="color: #28292c; text-decoration: none;" href="#">Product Manager, Mobile Computing Solutions</a>
+                </mj-text>
+
+                <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">APPLE</mj-text>
+
+                <mj-text font-size="13px" color="#28292c" padding="10px 0 20px 15px">
+                  <img width="13" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/location.png" alt="location.png" valign="top" />&nbsp;
+                  Los Angeles, San Diego
+                </mj-text>
+              </mj-column>
+
+              <!-- RIGHT-COL -->
+              <mj-column width="20%">
+                <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://cdn2.iconfinder.com/data/icons/apple-tv-1/512/apple_logo-512.png" href="#" />
+              </mj-column>
+            </mj-section>
+          </mj-body>
+        </mj-wrapper>
+
+
+        <!-- BUTTON -->
+        <mj-wrapper background-color="#ffffff" padding-top="0px" padding-bottom="22px" border-radius="10px">
+          <mj-body width="400px">
+            <mj-section>
+              <mj-column>
+                <!-- BUTTON -->
+                <mj-button css-class="BUTTON" href="#" background-color="#007cff" color="#ffffff" height="50px" width="250px" inner-padding="0px" font-size="17px" font-weight="bold" padding-top="0px" padding-bottom="0px">
+                  Complete Your Posting
+                </mj-button>
+              </mj-column>
+            </mj-section>
+          </mj-body>
+        </mj-wrapper>
+
+
+
+        <!-- FEEDBACK -->
+        <mj-section css-class="FEEDBACK" padding-bottom="13px">
+          <mj-column>
+            <mj-text line-height="22px" font-size="15px" align="center" color="#818181" padding-top="17px">Send us an email at <a href="#" style="color: #007cff; text-decoration: none;">feedback@producthired.com</a> to let us know what you think about this new email. Please note that you will not receive a&nbsp;response&nbsp;back.</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!-- UNSUBSCRIBE -->
+        <mj-section css-class="UNSUBSCRIBE" padding="0">
+          <mj-column>
+            <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding-top="2px" padding-bottom="8px" text-decoration="underline" href="#">
+              Unsubscribe
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <!-- HELP -->
+        <mj-section css-class="HELP" padding="0">
+          <mj-column>
+            <mj-button color="#9a9a9a" inner-padding="0px" background-color="transparent" padding-top="2px" padding-bottom="8px" text-decoration="underline" href="#">
+              Help
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <!-- DEVIDER -->
+        <mj-section css-class="DEVIDER" padding="0">
+          <mj-column>
+            <mj-divider padding-top="27px" border-width="1px" border-style="solid" border-color="#cccccc" />
+          </mj-column>
+        </mj-section>
+
+        <!-- FOOTER -->
+        <mj-section css-class="FOOTER" padding="10px 0">
+
+          <!-- COPYRIGHT -->
+          <mj-column width="50%">
+            <mj-text font-size="13px" color="#9a9a9a" padding-top="14px">
+              Made by ProductHired LLC
+            </mj-text>
+            <mj-text font-size="13px" color="#9a9a9a" padding-top="2px">
+              513 Chalk Ln. Austin,TX - 92345
+            </mj-text>
+          </mj-column>
+
+          <!-- SOCIAL -->
+          <mj-column width="50%" padding-top="0px">
+            <mj-social align="right" icon-size="30px">
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png" href="#" target="_blank" alt="facebook" padding="0px 0px 0px 10px" />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/twitter%403x.png"  href="#" target="_blank" alt="twitter" padding="0px 0px 0px 10px" />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/linkedin%403x.png"  href="#" target="_blank" alt="linkedin" padding="0px 0px 0px 10px" />
+              <mj-social-element src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/angellist%403x.png" href="#" target="_blank" alt="angellist" padding="0px 0px 0px 10px" />
+            </mj-social>
+          </mj-column>
+        </mj-section>
+
+      </mj-body>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
