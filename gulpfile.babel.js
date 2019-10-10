@@ -3,6 +3,8 @@
 import gulp from 'gulp';
 import babel from 'gulp-babel';
 import imagemin from 'gulp-imagemin';
+import htmlmin from 'gulp-htmlmin' ;
+import beautify  from 'gulp-jsbeautifier';
 import mjml from 'gulp-mjml';
 import newer from 'gulp-newer';
 import browserSync from 'browser-sync';
@@ -34,6 +36,17 @@ const paths = {
 export const generateHtml = (done) => {
   gulp.src(paths.html.src)
     .pipe(mjml())
+    .pipe(htmlmin({ 
+      collapseWhitespace: true,
+      processConditionalComments: true,
+      removeEmptyAttributes: true,
+     }))
+    .pipe(beautify(
+      {
+        "indent_char": " ",
+        "indent_size": 2,
+      }
+    ))
     .pipe(gulp.dest(basePaths.dist));
   browserSync.reload();
   done();
