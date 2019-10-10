@@ -116,12 +116,13 @@
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
 
+    <!-- CONTENT -->
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
         <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
 
           <mj-section>
-            <mj-column>              
+            <mj-column>
               <!-- TITLE -->
               <mj-text mj-class="TITLE" css-class="TITLE">
                 Complete your unfinished <br/> job posting
@@ -146,28 +147,39 @@
 
                     <!-- LEFT-COL -->
                     <mj-column width="80%">
+
+                      <!-- Technical Product Manager -->
                       <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px" line-height="18px">
                         <a style="color: #28292c; text-decoration: none;" href="#">Technical Product Manager – Central Systems, Data & Tools</a>
                       </mj-text>
+                      <!-- /Technical Product Manager -->
 
+                      <!-- NETFLIX -->
                       <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">
                         NETFLIX
                       </mj-text>
+                      <!-- /NETFLIX -->
 
+                      <!-- Petropavlovsk-Kamchatsky -->
                       <mj-text font-size="13px" color="#28292c" padding="10px 0 20px 15px">
                         <img width="13" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/location.png" alt="location.png" valign="top" />&nbsp;
                         Petropavlovsk-Kamchatsky
                       </mj-text>
+                      <!-- /Petropavlovsk-Kamchatsky -->
                     </mj-column>
+                    <!-- /LEFT-COL -->
 
                     <!-- RIGHT-COL -->
                     <mj-column width="20%">
+                      <!-- COMPANY LOGO -->
                       <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://fybstoreid.com/wp-content/uploads/2019/06/8c740bc13bd5a0a19c24d28dff98cbdd-2.png" href="#" />
+                      <!-- /COMPANY LOGO -->
                     </mj-column>
+                    <!-- /RIGHT-COL -->
+
                   </mj-section>
                 </mj-body>
               </mj-wrapper>
-
 
 
               <!-- ITEM-WRAPPER 600px -->
@@ -178,21 +190,29 @@
                     <!-- LEFT-COL -->
                     <mj-column width="80%">
                     
+                      <!-- Product Manager -->
                       <mj-text font-size="14px" font-weight="bold" padding="20px 0 0 15px" line-height="18px">
                         <a style="color: #28292c; text-decoration: none;" href="#">Product Manager, Mobile Computing Solutions</a>
                       </mj-text>
+                      <!-- Product Manager -->
 
+                      <!-- APPLE -->
                       <mj-text font-size="12px" color="#28292c" font-weight="bold" padding="10px 0 8px 15px">APPLE</mj-text>
+                      <!-- /APPLE -->
 
+                      <!-- Los Angeles, San Diego + IMG-->
                       <mj-text font-size="13px" color="#28292c" padding="10px 0 20px 15px">
                         <img width="13" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/location.png" alt="location.png" valign="top" />&nbsp;
                         Los Angeles, San Diego
                       </mj-text>
+                      <!-- /Los Angeles, San Diego + IMG -->
                     </mj-column>
 
                     <!-- RIGHT-COL -->
                     <mj-column width="20%">
+                      <!-- COMPANY LOGO -->
                       <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://cdn2.iconfinder.com/data/icons/apple-tv-1/512/apple_logo-512.png" href="#" />
+                      <!-- /COMPANY LOGO -->
                     </mj-column>
                   </mj-section>
                 </mj-body>
@@ -210,7 +230,7 @@
         </mj-wrapper>
       </mj-body>
     </mj-section>
-
+    <!-- /CONTENT -->
 
     <mj-include path="./parts/feedback.mjml" />
     <mj-include path="./parts/footer.mjml" />

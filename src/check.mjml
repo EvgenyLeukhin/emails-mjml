@@ -111,14 +111,18 @@
           <!-- TITLEs -->
           <mj-section>
             <mj-column>
+              <!-- Thank you for  -->
               <mj-text mj-class="TITLE" css-class="TITLE">
                 Thank you for purchasing a&nbsp;post&nbsp;with&nbsp;us
               </mj-text>
+              <!-- /Thank you for  -->
 
+              <!-- Hi Rebecca -->
               <mj-text  mj-class="SUB-TITLE" css-class="SUB-TITLE">
                 Hi <span>Rebecca</span>,<br/>
                 Here’s your receipt from your most recent purchase
               </mj-text>
+              <!-- /Hi Rebecca  -->
             </mj-column>
           </mj-section>
           <!-- /TITLEs -->

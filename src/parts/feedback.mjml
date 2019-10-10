@@ -1,3 +1,4 @@
+<!--FEEDBACK-->
 <mj-section>
   <mj-column>
     <mj-text mj-class="FEEDBACK__TEXT" css-class="FEEDBACK__TEXT">
@@ -12,3 +13,4 @@
     <mj-divider mj-class="FEEDBACK__DEVIDER" css-class="FEEDBACK__DEVIDER" />
   </mj-column>
 </mj-section>
+<!--/FEEDBACK-->

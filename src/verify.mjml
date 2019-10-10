@@ -116,6 +116,7 @@
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
 
+    <!-- CONTENT -->
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
         <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
@@ -152,6 +153,7 @@
         </mj-wrapper>
       </mj-body>
     </mj-section>
+    <!-- /CONTENT -->
 
 
     <mj-include path="./parts/feedback.mjml" />

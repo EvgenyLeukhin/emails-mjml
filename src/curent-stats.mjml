@@ -106,6 +106,7 @@
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
 
+    <!-- CONTENT -->
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
         <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
@@ -130,20 +131,32 @@
               <!-- ITEM -->
               <mj-body mj-class="CARD" css-class="CARD">
                 <mj-wrapper mj-class="CARD__WRAPPER" css-class="CARD__WRAPPER">
+
+                  <!-- ITEM INFO-->
                   <mj-section>
                     <mj-column>
+                      <!-- JOB ADVERTISEMENT -->
                       <mj-text align="center" font-size="12px" color="#a0a6b8" padding-bottom="20px">
                         JOB ADVERTISEMENT <span style="color: #00cb83;">● LIVE</span>
                       </mj-text>
+                      <!-- /JOB ADVERTISEMENT -->
 
+
+                      <!-- COMPANY LOGO -->
                       <mj-image width="116px" src="http://media.heartlandtv.com/images/ap-netflix-graphic-stock-photo.jpg" padding-bottom="20px" />
+                      <!-- /COMPANY LOGO -->
 
+
+                      <!-- JOB POSITION -->
                       <mj-text align="center" font-size="20px" color="#28292c" font-weight="bold" padding-bottom="20px">
                         Sr. Product Manager
                       </mj-text>
+                      <!-- /JOB POSITION -->
                     </mj-column>
                   </mj-section>
+                  <!-- /ITEM INFO-->
 
+                  <!-- 3 COLS POINTS-->
                   <mj-section>
                     <mj-column>
                       <mj-text align="center" font-size="14px" color="#28292c" padding-bottom="20px">
@@ -161,6 +174,7 @@
                       </mj-text>
                     </mj-column>
                   </mj-section>
+                  <!-- /3 COLS POINTS-->
                 </mj-wrapper>
               </mj-body>
               <!-- /ITEM -->
@@ -177,6 +191,7 @@
         </mj-wrapper>
       </mj-body>
     </mj-section>
+    <!-- /CONTENT -->
 
 
     <mj-include path="./parts/feedback.mjml" />

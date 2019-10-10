@@ -114,94 +114,147 @@
       }
     </mj-style>
   </mj-head>
+
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header-dark.mjml" />
 
+    <!-- DZEN IMAGE -->
     <mj-section background-color="#00cb83">
       <mj-column>
         <mj-image mj-class="IMAGE" css-class="IMAGE" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/homepage-illustration%403x.png" />
       </mj-column>
     </mj-section> 
+    <!-- /DZEN IMAGE -->
 
+    <!-- CONTENT -->
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
         <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
+
+          <!-- TEXT PREVIEW -->
           <mj-section>
             <mj-column>
+
               <!-- TITLE -->
               <mj-text mj-class="TITLE" css-class="TITLE">
                 Welcome to ProductHired
               </mj-text>
               <!-- /TITLE -->
 
-
               <!-- SUB-TITLE -->
               <mj-text mj-class="SUB-TITLE" css-class="SUB-TITLE">
                There are many variations of passages available, but the majority have suffered alteration in some form, by injected humour and words which look slightly different
               </mj-text>
+              <!-- /SUB-TITLE -->
+
             </mj-column>
           </mj-section>
-          <!-- /SUB-TITLE -->
+          <!-- /TEXT PREVIEW -->
 
 
-          <!-- Section #1 -->
+          <!-- SECTOIN #1 -->
           <mj-section padding-bottom="30px" padding-top="30px">
+
+            <!-- Section #1__IMAGE #1 -->
             <mj-column width="35%">
               <mj-image src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/group-2%403x.jpg" alt="image.jpg" />
             </mj-column>
+            <!-- /Section #1__IMAGE #1 -->
 
+
+            <!-- Section #1__SPACER 10% -->
             <mj-column width="10%" />
+            <!-- /Section #1__SPACER 10% -->
 
+
+            <!-- Section #1__TEXT -->
             <mj-column width="55%">
+
+              <!-- Reach product experts -->
               <mj-text mj-class="TITLE-2" css-class="TITLE-2">
                 Reach product experts
               </mj-text>
+              <!-- /Reach product experts -->
+
+              <!-- It is a long established -->
               <mj-text mj-class="SUB-TITLE-2" css-class="SUB-TITLE-2">
                It is a long established fact that a reader will be distracted by the readable content of a page when looking
               </mj-text>
+              <!-- /It is a long established -->
+
             </mj-column>
+            <!-- /Section #1__TEXT -->
           </mj-section>
-          <!-- /Section #1 -->
+          <!-- /SECTOIN #1 -->
 
 
-          <!-- Section #2 -->
+          <!-- SECTOIN #2 -->
           <mj-section padding-bottom="30px">
+
+            <!-- SECTOIN #2__TEXT -->
             <mj-column width="55%">
+
+              <!-- Reach product experts -->
               <mj-text mj-class="TITLE-2" css-class="TITLE-2">
                 Reach product experts
               </mj-text>
+              <!-- /Reach product experts -->
+
+              <!-- It is a long established -->
               <mj-text mj-class="SUB-TITLE-2" css-class="SUB-TITLE-2">
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking
               </mj-text>
+              <!-- /It is a long established -->
+
             </mj-column>
+            <!-- SECTOIN #2__TEXT -->
 
+
+            <!-- SECTOIN #2__SPACER 10% -->
             <mj-column width="10%" />
+            <!-- /SECTOIN #2__SPACER 10% -->
 
+
+            <!-- SECTOIN #2__IMAGE #2 -->
             <mj-column width="35%">
               <mj-image src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/group-3-copy%403x.jpg" alt="image.jpg" />
             </mj-column>
+            <!-- /SECTOIN #2__IMAGE #2 -->
           </mj-section>
-          <!-- /Section #2 -->
+          <!-- /SECTOIN #2 -->
 
 
-          <!-- Section #3 -->
+          <!-- SECTOIN #3 -->
           <mj-section padding-bottom="30px">
+
+            <!-- SECTOIN #3__IMAGE #3 -->
             <mj-column width="35%">
               <mj-image src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/group-27%403x.jpg" alt="image.jpg" />
             </mj-column>
+            <!-- /SECTOIN #3__IMAGE #3 -->
 
+            <!-- SECTOIN #3__SPACER 10% -->
             <mj-column width="10%" />
+            <!-- /SECTOIN #3__SPACER 10% -->
 
+            <!-- SECTOIN #3__IMAGE 10% -->
             <mj-column width="55%">
+
+              <!-- Use all channels -->
               <mj-text mj-class="TITLE-2" css-class="TITLE-2">
                 Use all channels
               </mj-text>
+              <!-- /Use all channels -->
+
+              <!-- It is a long established -->
               <mj-text mj-class="SUB-TITLE-2" css-class="SUB-TITLE-2">
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
               </mj-text>
+              <!-- /It is a long established -->
             </mj-column>
+            <!-- SECTOIN #3__IMAGE 10% -->
           </mj-section>
-          <!-- /Section #3 -->
+          <!-- /SECTOIN #3 -->
 
           <!-- BUTTON -->
           <mj-section>
@@ -216,6 +269,7 @@
         </mj-wrapper>
       </mj-body>
     </mj-section>
+    <!-- /CONTENT -->
 
 
     <mj-include path="./parts/feedback.mjml" />

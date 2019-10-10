@@ -116,12 +116,14 @@
   <mj-body mj-class="BODY" css-class="BODY">
     <mj-include path="./parts/header.mjml" />
 
+    <!-- CONTENT -->
     <mj-section>
       <mj-body mj-class="CONTENT" css-class="CONTENT">
         <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
 
           <mj-section>
             <mj-column>
+
               <!-- SUB-TITLE -->
               <mj-text font-size="20px" align="center" color="#1f1f1f" padding-top="33px" padding-bottom="0px">Jobs related to</mj-text>
               <!-- /SUB-TITLE -->
@@ -159,14 +161,19 @@
                         Today
                       </mj-text>
                     </mj-column>
+                    <!-- /LEFT-COL -->
+
 
                     <!-- RIGHT-COL -->
                     <mj-column width="20%">
                       <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://fybstoreid.com/wp-content/uploads/2019/06/8c740bc13bd5a0a19c24d28dff98cbdd-2.png" href="#" />
                     </mj-column>
+                    <!-- /RIGHT-COL -->
+
                   </mj-section>
                 </mj-body>
               </mj-wrapper>
+              <!-- /ITEM-WRAPPER 600px -->
 
 
 
@@ -194,14 +201,17 @@
                         Yesteday
                       </mj-text>
                     </mj-column>
+                    <!-- /LEFT-COL -->
 
                     <!-- RIGHT-COL -->
                     <mj-column width="20%">
                       <mj-image padding="15px 5px 10px 15px" align="right" border-radius="18px" width="50px" src="https://cdn2.iconfinder.com/data/icons/apple-tv-1/512/apple_logo-512.png" href="#" />
                     </mj-column>
+                    <!-- /RIGHT-COL -->
                   </mj-section>
                 </mj-body>
               </mj-wrapper>
+              <!-- /ITEM-WRAPPER 600px -->
 
 
               <!-- BUTTON -->
@@ -209,13 +219,14 @@
                 See All Jobs
               </mj-button>
               <!-- /BUTTON -->
+
             </mj-column>
           </mj-section>
 
         </mj-wrapper>
       </mj-body>
     </mj-section>
-
+    <!-- /CONTENT -->
 
     <mj-include path="./parts/feedback.mjml" />
     <mj-include path="./parts/footer.mjml" />
