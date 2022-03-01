@@ -35,5 +35,5 @@
     "gulp-jsbeautifier": "^3.0.1",
     "gulp-mjml": "^3.0.0",
     "gulp-newer": "^1.4.0"
-  } 
+  }
 }
